@@ -111,3 +111,15 @@ ClaimSpecification As screen:
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
 
+    PartyNamelabel_10 As label:
+        Color: |
+            =RGBA(0, 18, 107, 1)
+        FontWeight: =FontWeight.Lighter
+        Height: =59
+        Size: =20
+        Text: ="Contracts"
+        Width: =405
+        X: =683
+        Y: =76
+        ZIndex: =6
+
