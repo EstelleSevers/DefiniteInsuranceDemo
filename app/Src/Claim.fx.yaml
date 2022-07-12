@@ -122,13 +122,14 @@ Claim As screen:
             ZIndex: =5
 
     ContractsLabel As label:
+        Align: =Align.Center
         Color: =RGBA(0, 18, 107, 1)
         Height: =41
         Size: =20
         Text: |-
             ="Contracts:"
         Width: =176
-        X: =1168
+        X: =1153
         Y: =164
         ZIndex: =7
 
@@ -140,8 +141,8 @@ Claim As screen:
         Default: =""
         Height: =52
         HintText: ="Contract"
-        Width: =176
-        X: =1168
+        Width: =187
+        X: =1148
         Y: =216
         ZIndex: =8
 

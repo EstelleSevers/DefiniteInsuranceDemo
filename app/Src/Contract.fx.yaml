@@ -123,6 +123,7 @@ Contract As screen:
             ZIndex: =5
 
     TypeLabel As label:
+        Align: =Align.Center
         Color: =RGBA(0, 18, 107, 1)
         Height: =41
         Size: =20
@@ -141,12 +142,13 @@ Contract As screen:
         Default: =""
         Height: =52
         HintText: ="Product"
-        Width: =176
+        Width: =187
         X: =1148
-        Y: =196
+        Y: =186
         ZIndex: =8
 
     HolderLabel As label:
+        Align: =Align.Center
         Color: =RGBA(0, 18, 107, 1)
         Height: =41
         Size: =20
@@ -165,12 +167,13 @@ Contract As screen:
         Default: =""
         Height: =52
         HintText: ="Party"
-        Width: =176
+        Width: =187
         X: =1148
-        Y: =357
+        Y: =346
         ZIndex: =10
 
     BeneficiaryLabel As label:
+        Align: =Align.Center
         Color: =RGBA(0, 18, 107, 1)
         Height: =41
         Size: =20
@@ -189,8 +192,8 @@ Contract As screen:
         Default: =""
         Height: =52
         HintText: ="Party"
-        Width: =176
+        Width: =187
         X: =1148
-        Y: =534
+        Y: =523
         ZIndex: =12
 
