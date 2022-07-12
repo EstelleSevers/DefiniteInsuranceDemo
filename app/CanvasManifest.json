@@ -110,6 +110,10 @@
     "PartySpecification",
     "ContractSpecification",
     "ProductSpecification",
-    "ClaimSpecification"
+    "ClaimSpecification",
+    "PartyCreator",
+    "ContractCreator",
+    "ProductCreator",
+    "ClaimCreator"
   ]
 }

@@ -5,7 +5,7 @@ EntryScreen As screen:
         OnSelect: =Navigate(Contract)
         Text: ="Contract"
         X: =449
-        Y: =360
+        Y: =202
         ZIndex: =1
 
     PartyNavigator As button:
@@ -13,7 +13,7 @@ EntryScreen As screen:
         OnSelect: =Navigate(Party)
         Text: ="Party"
         X: =154
-        Y: =360
+        Y: =202
         ZIndex: =2
 
     ProductNavigator As button:
@@ -21,7 +21,7 @@ EntryScreen As screen:
         OnSelect: =Navigate(Product)
         Text: ="Product"
         X: =758
-        Y: =360
+        Y: =202
         ZIndex: =3
 
     ClaimNavigator As button:
@@ -29,7 +29,7 @@ EntryScreen As screen:
         OnSelect: =Navigate(Claim)
         Text: ="Claim"
         X: =1052
-        Y: =360
+        Y: =202
         ZIndex: =4
 
     EntryTitle As label:
@@ -43,4 +43,48 @@ EntryScreen As screen:
         X: =388
         Y: =40
         ZIndex: =5
+
+    EntryTitle2 As label:
+        Color: =RGBA(0, 18, 107, 1)
+        Height: =44
+        Size: =20
+        Text: |-
+            ="Choose the type of entity you want to create:
+            "
+        Width: =568
+        X: =399
+        Y: =376
+        ZIndex: =6
+
+    ContractButton As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate(ContractCreator)
+        Text: ="Contract"
+        X: =449
+        Y: =555
+        ZIndex: =7
+
+    PartyButton As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate(PartyCreator)
+        Text: ="Party"
+        X: =154
+        Y: =555
+        ZIndex: =8
+
+    ProductButton As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate(ProductCreator)
+        Text: ="Product"
+        X: =758
+        Y: =555
+        ZIndex: =9
+
+    ClaimButton As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate(ClaimCreator)
+        Text: ="Claim"
+        X: =1052
+        Y: =555
+        ZIndex: =10
 
