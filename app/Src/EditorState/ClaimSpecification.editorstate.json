@@ -81,7 +81,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ClaimInfoLabel",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -335,7 +335,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ClaimSpecBackArrow",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1502,7 +1502,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "PartyNamelabel_10",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
