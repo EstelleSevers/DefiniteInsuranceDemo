@@ -1,0 +1,147 @@
+Claim As screen:
+
+    ClaimBackArrow As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =1260
+        Y: =40
+        ZIndex: =1
+
+    ClaimSeachtButton As icon.Search:
+        Icon: =Icon.Search
+        X: =1130
+        Y: =40
+        ZIndex: =2
+
+    ClaimTitle As label:
+        Color: =RGBA(0, 18, 107, 1)
+        Height: =95
+        Size: =20
+        Text: |-
+            ="Give the id of the claim you are looking for, 
+            or no id if you want to fetch all the claims"
+        Width: =555
+        X: =18
+        Y: =24
+        ZIndex: =3
+
+    ClaimSearchID As text:
+        BorderColor: |
+            =RGBA(0, 18, 107, 1)
+        BorderThickness: =3
+        Color: =RGBA(0, 18, 107, 1)
+        Default: ="Text input"
+        Height: =52
+        Width: =372
+        X: =645
+        Y: =46
+        ZIndex: =4
+
+    LoadMoreClaims As button:
+        BorderColor: =ColorFade(Self.Color, -15%)
+        BorderThickness: =3
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =White
+        Height: =55
+        Size: =20
+        Text: ="Load more"
+        Width: =187
+        X: =1148
+        Y: =684
+        ZIndex: =5
+
+    "ClaimGallery As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        Height: =595
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        OnSelect: =Navigate(ClaimSpecification, None)
+        TemplatePadding: =0
+        TemplateSize: =Min(160, Self.Height - 60)
+        Width: =1112
+        X: =18
+        Y: =144
+        ZIndex: =6
+
+        Image2_3 As image:
+            Height: =128
+            OnSelect: =Select(Parent)
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title2_3 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.SampleHeading
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - Image2_3.Width - 104
+            X: =Image2_3.X + Image2_3.Width + 24
+            Y: =44
+            ZIndex: =2
+
+        Subtitle2_3 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.SampleText
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title2_3.Width
+            X: =Title2_3.X
+            Y: =Title2_3.Y + Title2_3.Height + 4
+            ZIndex: =3
+
+        NextArrow2_3 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="View item details"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator2_3 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =159
+            ZIndex: =5
+
+    ContractsLabel As label:
+        Color: =RGBA(0, 18, 107, 1)
+        Height: =41
+        Size: =20
+        Text: |-
+            ="Contracts:"
+        Width: =176
+        X: =1168
+        Y: =164
+        ZIndex: =7
+
+    ContractsInput As text:
+        BorderColor: |
+            =RGBA(0, 18, 107, 1)
+        BorderThickness: =3
+        Color: =RGBA(0, 18, 107, 1)
+        Default: =""
+        Height: =52
+        HintText: ="Contract"
+        Width: =176
+        X: =1168
+        Y: =216
+        ZIndex: =8
+

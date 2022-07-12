@@ -1,0 +1,196 @@
+Contract As screen:
+
+    ContractBackArrow As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =1260
+        Y: =40
+        ZIndex: =1
+
+    ContractSearchButton As icon.Search:
+        Icon: =Icon.Search
+        X: =1130
+        Y: =40
+        ZIndex: =2
+
+    ContractTitle As label:
+        Color: =RGBA(0, 18, 107, 1)
+        Height: =95
+        Size: =20
+        Text: |-
+            ="Give the id of the contract you are looking for, 
+            or no id if you want to fetch all the contracts"
+        Width: =586
+        X: =26
+        Y: =24
+        ZIndex: =3
+
+    ContractSearchID As text:
+        BorderColor: |
+            =RGBA(0, 18, 107, 1)
+        BorderThickness: =3
+        Color: =RGBA(0, 18, 107, 1)
+        Default: =""
+        Height: =52
+        HintText: ="Contract id"
+        Width: =372
+        X: =645
+        Y: =46
+        ZIndex: =4
+
+    LoadMoreContracts As button:
+        BorderColor: =ColorFade(Self.Color, -15%)
+        BorderThickness: =3
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =White
+        Height: =55
+        Size: =20
+        Text: ="Load more"
+        Width: =187
+        X: =1148
+        Y: =684
+        ZIndex: =5
+
+    "ContractGallery As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        Height: =595
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        OnSelect: =Navigate(ContractSpecification, None)
+        TemplatePadding: =0
+        TemplateSize: =Min(160, Self.Height - 60)
+        Width: =1104
+        X: =26
+        Y: =144
+        ZIndex: =6
+
+        Image2_2 As image:
+            Height: =128
+            OnSelect: =Select(Parent)
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title2_2 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.SampleHeading
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - Image2_2.Width - 104
+            X: =Image2_2.X + Image2_2.Width + 24
+            Y: =44
+            ZIndex: =2
+
+        Subtitle2_2 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.SampleText
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title2_2.Width
+            X: =Title2_2.X
+            Y: =Title2_2.Y + Title2_2.Height + 4
+            ZIndex: =3
+
+        NextArrow2_2 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="View item details"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator2_2 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =159
+            ZIndex: =5
+
+    TypeLabel As label:
+        Color: =RGBA(0, 18, 107, 1)
+        Height: =41
+        Size: =20
+        Text: |-
+            ="Type:"
+        Width: =176
+        X: =1148
+        Y: =144
+        ZIndex: =7
+
+    TypeInput As text:
+        BorderColor: |
+            =RGBA(0, 18, 107, 1)
+        BorderThickness: =3
+        Color: =RGBA(0, 18, 107, 1)
+        Default: =""
+        Height: =52
+        HintText: ="Product"
+        Width: =176
+        X: =1148
+        Y: =196
+        ZIndex: =8
+
+    HolderLabel As label:
+        Color: =RGBA(0, 18, 107, 1)
+        Height: =41
+        Size: =20
+        Text: |-
+            ="Holder:"
+        Width: =176
+        X: =1148
+        Y: =305
+        ZIndex: =9
+
+    HolderInput As text:
+        BorderColor: |
+            =RGBA(0, 18, 107, 1)
+        BorderThickness: =3
+        Color: =RGBA(0, 18, 107, 1)
+        Default: =""
+        Height: =52
+        HintText: ="Party"
+        Width: =176
+        X: =1148
+        Y: =357
+        ZIndex: =10
+
+    BeneficiaryLabel As label:
+        Color: =RGBA(0, 18, 107, 1)
+        Height: =41
+        Size: =20
+        Text: |-
+            ="Beneficiary:"
+        Width: =176
+        X: =1148
+        Y: =482
+        ZIndex: =11
+
+    BeneficiaryInput As text:
+        BorderColor: |
+            =RGBA(0, 18, 107, 1)
+        BorderThickness: =3
+        Color: =RGBA(0, 18, 107, 1)
+        Default: =""
+        Height: =52
+        HintText: ="Party"
+        Width: =176
+        X: =1148
+        Y: =534
+        ZIndex: =12
+

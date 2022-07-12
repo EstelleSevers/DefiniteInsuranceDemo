@@ -1,0 +1,124 @@
+Product As screen:
+
+    ProductBackArrow As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =1260
+        Y: =40
+        ZIndex: =1
+
+    ProductSearchButton As icon.Search:
+        Icon: =Icon.Search
+        X: =1130
+        Y: =40
+        ZIndex: =2
+
+    ProductTitle As label:
+        Color: =RGBA(0, 18, 107, 1)
+        Height: =95
+        Size: =20
+        Text: |-
+            ="Give the id of the product you are looking for, 
+            or no id if you want to fetch all the products"
+        Width: =579
+        X: =18
+        Y: =24
+        ZIndex: =3
+
+    ProductSearchID As text:
+        BorderColor: |
+            =RGBA(0, 18, 107, 1)
+        BorderThickness: =3
+        Color: =RGBA(0, 18, 107, 1)
+        Default: =""
+        Height: =52
+        HintText: ="Product id"
+        Width: =372
+        X: =645
+        Y: =46
+        ZIndex: =4
+
+    LoadMoreProducts As button:
+        BorderColor: =ColorFade(Self.Color, -15%)
+        BorderThickness: =3
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =White
+        Height: =55
+        Size: =20
+        Text: ="Load more"
+        Width: =187
+        X: =1148
+        Y: =684
+        ZIndex: =5
+
+    "ProductGallery As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        Height: =595
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        OnSelect: =Navigate(ProductSpecification,None)
+        TemplatePadding: =0
+        TemplateSize: =Min(160, Self.Height - 60)
+        Width: =1112
+        X: =18
+        Y: =144
+        ZIndex: =6
+
+        Image2 As image:
+            Height: =128
+            OnSelect: =Select(Parent)
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title2 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.SampleHeading
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - Image2.Width - 104
+            X: =Image2.X + Image2.Width + 24
+            Y: =44
+            ZIndex: =2
+
+        Subtitle2 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.SampleText
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title2.Width
+            X: =Title2.X
+            Y: =Title2.Y + Title2.Height + 4
+            ZIndex: =3
+
+        NextArrow2 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="View item details"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator2 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =159
+            ZIndex: =5
+

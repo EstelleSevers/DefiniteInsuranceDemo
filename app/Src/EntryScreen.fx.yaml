@@ -1,0 +1,46 @@
+EntryScreen As screen:
+
+    ContractNavigator As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate(Contract)
+        Text: ="Contract"
+        X: =449
+        Y: =360
+        ZIndex: =1
+
+    PartyNavigator As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate(Party)
+        Text: ="Party"
+        X: =154
+        Y: =360
+        ZIndex: =2
+
+    ProductNavigator As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate(Product)
+        Text: ="Product"
+        X: =758
+        Y: =360
+        ZIndex: =3
+
+    ClaimNavigator As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate(Claim)
+        Text: ="Claim"
+        X: =1052
+        Y: =360
+        ZIndex: =4
+
+    EntryTitle As label:
+        Color: =RGBA(0, 18, 107, 1)
+        Height: =42
+        Size: =20
+        Text: |-
+            ="Choose the type of entity you want to look for:
+            "
+        Width: =591
+        X: =388
+        Y: =40
+        ZIndex: =5
+
