@@ -45,7 +45,7 @@ PartyCreator As screen:
         Icon: =Icon.Send
         OnSelect: |-
             =Clear(PartyCollection);
-            Collect(PartyCollection, PostParty.Run(CreatePartyNameField.Text, CreatePartyIdentifierField.Text);
+            Collect(PartyCollection, PostParty.Run(CreatePartyIdentifierField.Text, CreatePartyNameField.Text);
             Navigate(PartySpecification, None, { 
                 name: CreatePartyNameField.Text,
                 identifier: CreatePartyIdentifierField.Text
