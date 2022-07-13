@@ -123,9 +123,7 @@ ContractSpecification As screen:
 
     Icon1_1 As icon.ArrowRight:
         Icon: =Icon.ArrowRight
-        OnSelect: |-
-            =false
-            false
+        OnSelect: =Navigate(PartySpecification, None, {})
         X: =233
         Y: =469
         ZIndex: =21
@@ -133,8 +131,7 @@ ContractSpecification As screen:
     Icon1_2 As icon.ArrowRight:
         Icon: =Icon.ArrowRight
         OnSelect: |-
-            =false
-            false
+            =https://insurance-demo.content-cloud.eu/contracts/0f43770b-7250-4d7d-aace-37861a52dee1/type
         X: =233
         Y: =533
         ZIndex: =22
