@@ -9,6 +9,9 @@ Contract As screen:
 
     ContractSearchButton As icon.Search:
         Icon: =Icon.Search
+        OnSelect: |-
+            =Clear(ContractCollection);
+            Collect(ContractCollection, FindAllContracts.Run());
         X: =1130
         Y: =40
         ZIndex: =2
