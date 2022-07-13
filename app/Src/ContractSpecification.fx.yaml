@@ -116,12 +116,9 @@ ContractSpecification As screen:
 
     Icon1 As icon.ArrowRight:
         Icon: =Icon.ArrowRight
-        OnSelect: |-
-            =Clear(PartyCollection);
-            Collect(PartyCollection, 
-            Navigate(PartySpecification, None, {}
+        OnSelect: =Navigate(PartySpecification, None, {})
         X: =233
-        Y: =410
+        Y: =417
         ZIndex: =20
 
     Icon1_1 As icon.ArrowRight:
