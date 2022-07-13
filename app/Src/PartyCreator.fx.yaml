@@ -27,7 +27,7 @@ PartyCreator As screen:
         Y: =205
         ZIndex: =3
 
-    CreatePartyNameInput As text:
+    CreatePartyNameField As text:
         Default: =""
         HintText: ="Name"
         X: =372
@@ -45,7 +45,11 @@ PartyCreator As screen:
         Icon: =Icon.Send
         OnSelect: |-
             =Clear(PartyCollection);
-            Collect(PartyCollection, 
+            Collect(PartyCollection, PostParty.Run(CreatePartyNameField.Text, CreatePartyIdentifierField.Text);
+            Navigate(ProductSpecification, None, { 
+                name: CreatePartyNameField.Text,
+                department: CreatePartyIdentifierField.Text
+            }));
         X: =30
         Y: =686
         ZIndex: =6
