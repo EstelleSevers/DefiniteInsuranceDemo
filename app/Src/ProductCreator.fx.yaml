@@ -11,7 +11,7 @@ ProductCreator As screen:
         Y: =40
         ZIndex: =1
 
-    Label7 As label:
+    CreateProductNameLabel As label:
         Height: =62
         Text: ="Name"
         Width: =342
@@ -19,7 +19,7 @@ ProductCreator As screen:
         Y: =143
         ZIndex: =2
 
-    Label7_1 As label:
+    CreateProductDepartmentLabel As label:
         Height: =62
         Text: ="Department"
         Width: =342
@@ -27,17 +27,23 @@ ProductCreator As screen:
         Y: =205
         ZIndex: =3
 
-    TextInput1 As text:
+    CreateProductNameInput As text:
         Default: =""
         HintText: ="Name"
         X: =372
         Y: =154
         ZIndex: =4
 
-    TextInput1_1 As text:
+    CreateProductDepartmentField As text:
         Default: =""
         HintText: ="Department"
         X: =372
         Y: =216
         ZIndex: =5
+
+    Icon2 As icon.Send:
+        Icon: =Icon.Send
+        X: =30
+        Y: =686
+        ZIndex: =6
 

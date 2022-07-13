@@ -1,2 +1,49 @@
 PartyCreator As screen:
 
+    ContractInfoLabel_2 As label:
+        Color: |
+            =RGBA(0, 18, 107, 1)
+        Height: =64
+        Size: =20
+        Text: ="Create a party"
+        Width: =1230
+        X: =30
+        Y: =40
+        ZIndex: =1
+
+    CreatePartyNameLabel As label:
+        Height: =62
+        Text: ="Name"
+        Width: =342
+        X: =30
+        Y: =143
+        ZIndex: =2
+
+    CreatePartyIdentifierLabel As label:
+        Height: =62
+        Text: ="Identifier"
+        Width: =342
+        X: =30
+        Y: =205
+        ZIndex: =3
+
+    CreatePartyNameInput As text:
+        Default: =""
+        HintText: ="Name"
+        X: =372
+        Y: =154
+        ZIndex: =4
+
+    CreatePartyIdentifierField As text:
+        Default: =""
+        HintText: ="Identifier"
+        X: =372
+        Y: =216
+        ZIndex: =5
+
+    Icon2_1 As icon.Send:
+        Icon: =Icon.Send
+        X: =30
+        Y: =686
+        ZIndex: =6
+
