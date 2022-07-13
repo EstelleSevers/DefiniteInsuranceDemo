@@ -56,15 +56,21 @@ ContractCreator As screen:
             Collect(ContractCollection, PostContract.Run(
                 CreateContractBeneficiaryField.Text, 
                 CreateContractFilenameField.Text, 
-                CreateContractBeneficiaryField.Text, 
-                CreateContractBeneficiaryField.Text, 
-                CreateContractBeneficiaryField.Text, 
-                CreateContractBeneficiaryField.Text, 
-                CreateContractBeneficiaryField.Text, 
-                CreateContractBeneficiaryField.Text);
+                CreateContractIDField.Text, 
+                CreateContractLengthField.Text, 
+                CreateContractMimetypeField.Text, 
+                CreateContractHolderField.Text, 
+                CreateContractNumberField.Text, 
+                CreateContractTypeField.Text);
             Navigate(PartySpecification, None, { 
-                name: CreatePartyNameField.Text,
-                identifier: CreatePartyIdentifierField.Text
+                number: CreateContractNumberField.Text,
+                id: CreateContractIDField.Text,
+                length: CreateContractLengthField.Text,
+                mimetype: CreateContractMimetypeField.Text,
+                filename: CreateContractFilenameField.Text,
+                beneficiary: CreateContractBeneficiaryField.Text,
+                holder: CreateContractHolderField.Text,
+                type: CreateContractTypeField.Text
             }));
         X: =1280
         Y: =681
