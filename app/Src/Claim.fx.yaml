@@ -55,7 +55,7 @@ Claim As screen:
 
     "ClaimGallery As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         Height: =595
-        Items: =CustomGallerySample
+        Items: =ClaimCollection
         Layout: =Layout.Vertical
         OnSelect: =Navigate(ClaimSpecification, None)
         TemplatePadding: =0
