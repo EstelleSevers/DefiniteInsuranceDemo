@@ -89,3 +89,19 @@ Product As screen:
             Y: =159
             ZIndex: =5
 
+        Label3 As label:
+            OnSelect: =Select(Parent)
+            Text: |-
+                ="Department: " & ThisItem.department
+            X: =12
+            Y: =23
+            ZIndex: =6
+
+        Label4 As label:
+            OnSelect: =Select(Parent)
+            Text: |-
+                ="Product Name: " & ThisItem.name
+            X: =12
+            Y: =97
+            ZIndex: =7
+
