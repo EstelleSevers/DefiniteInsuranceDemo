@@ -53,8 +53,8 @@ ContractSpecification As screen:
             ="Name:
             "
         Width: =405
-        X: =63
-        Y: =427
+        X: =845
+        Y: =497
         ZIndex: =5
 
     PartyIdentifierLabel_2 As label:
@@ -66,8 +66,8 @@ ContractSpecification As screen:
             ="Identifier:
             "
         Width: =405
-        X: =63
-        Y: =505
+        X: =845
+        Y: =575
         ZIndex: =6
 
     PartyNamelabel_3 As label:
@@ -76,10 +76,10 @@ ContractSpecification As screen:
         FontWeight: =FontWeight.Lighter
         Height: =59
         Size: =20
-        Text: ="Holder information"
+        Text: ="Beneficiary information"
         Width: =405
-        X: =34
-        Y: =359
+        X: =816
+        Y: =429
         ZIndex: =7
 
     PartyNamelabel_4 As label:
@@ -91,8 +91,8 @@ ContractSpecification As screen:
             ="Name:
             "
         Width: =405
-        X: =706
-        Y: =427
+        X: =855
+        Y: =292
         ZIndex: =8
 
     PartyIdentifierLabel_3 As label:
@@ -104,8 +104,8 @@ ContractSpecification As screen:
             ="Identifier:
             "
         Width: =405
-        X: =706
-        Y: =505
+        X: =855
+        Y: =370
         ZIndex: =9
 
     PartyNamelabel_5 As label:
@@ -116,8 +116,8 @@ ContractSpecification As screen:
         Size: =20
         Text: ="Holder information"
         Width: =405
-        X: =677
-        Y: =359
+        X: =826
+        Y: =224
         ZIndex: =10
 
     PartyNamelabel_6 As label:
@@ -128,8 +128,8 @@ ContractSpecification As screen:
         Text: |-
             ="Name:"
         Width: =405
-        X: =706
-        Y: =194
+        X: =855
+        Y: =59
         ZIndex: =11
 
     PartyIdentifierLabel_4 As label:
@@ -140,8 +140,8 @@ ContractSpecification As screen:
         Text: |-
             ="Department:"
         Width: =405
-        X: =706
-        Y: =272
+        X: =855
+        Y: =137
         ZIndex: =12
 
     PartyNamelabel_7 As label:
@@ -152,7 +152,6 @@ ContractSpecification As screen:
         Size: =20
         Text: ="Type information"
         Width: =405
-        X: =667
-        Y: =135
+        X: =816
         ZIndex: =13
 
