@@ -14,6 +14,46 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "PartySpecification.PartyNamelabel.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PartySpecification.PartyNamelabel.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 4,
+                  "charOffset": 11,
+                  "snippet": {
+                    "text": "name"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "PartySpecification",
+                "type": "PartySpecification.PartyNamelabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "name"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "PartySpecification.PartyIdentifierLabel.Text"
                 }
               ],

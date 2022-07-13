@@ -24,8 +24,7 @@ PartySpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Name:
-            "
+            ="Name: " & name
         Width: =405
         X: =75
         Y: =135
