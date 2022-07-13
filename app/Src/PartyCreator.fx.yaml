@@ -1,4 +1,7 @@
 PartyCreator As screen:
+    OnVisible: |-
+        =Set(_partyname, "");
+        Set(_identifier, "");
 
     ContractInfoLabel_2 As label:
         Color: |
@@ -28,14 +31,14 @@ PartyCreator As screen:
         ZIndex: =3
 
     CreatePartyNameField As text:
-        Default: =""
+        Default: =_partyname
         HintText: ="Name"
         X: =372
         Y: =154
         ZIndex: =4
 
     CreatePartyIdentifierField As text:
-        Default: =""
+        Default: =_identifier
         HintText: ="Identifier"
         X: =372
         Y: =216

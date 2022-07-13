@@ -1,4 +1,7 @@
 ProductCreator As screen:
+    OnVisible: |-
+        =Set(_productname, "");
+        Set(_department, "");
 
     ContractInfoLabel_1 As label:
         Color: |
@@ -50,8 +53,8 @@ ProductCreator As screen:
                 name: CreateProductNameField.Text,
                 department: CreateProductDepartmentField.Text
             }));
-        X: =30
-        Y: =686
+        X: =1280
+        Y: =687
         ZIndex: =6
 
     PartyBackArrow_2 As icon.BackArrow:
