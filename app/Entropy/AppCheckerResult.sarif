@@ -14,32 +14,32 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Contract.ContractGallery.Label1.Text"
+                  "fullyQualifiedName": "ContractSpecification.PartyNamelabel_1.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Contract.ContractGallery.Label1.Text",
+                  "fullyQualifiedName": "ContractSpecification.PartyNamelabel_1.Text",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 16,
-                  "charOffset": 8,
+                  "charLength": 4,
+                  "charOffset": 13,
                   "snippet": {
-                    "text": ".contentFilename"
+                    "text": "numb"
                   }
                 }
               },
               "properties": {
                 "member": "Text",
-                "module": "Contract",
-                "type": "Contract.ContractGallery.Label1"
+                "module": "ContractSpecification",
+                "type": "ContractSpecification.PartyNamelabel_1"
               }
             }
           ],
           "message": {
             "arguments": [
-              "contentFilename"
+              "numb"
             ],
             "id": "issue"
           },

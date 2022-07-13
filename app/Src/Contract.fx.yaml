@@ -56,7 +56,7 @@ Contract As screen:
 
     "ContractGallery As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         Height: =595
-        Items: =CustomGallerySample
+        Items: =ContractCollection
         Layout: =Layout.Vertical
         OnSelect: =Navigate(ContractSpecification, None)
         TemplatePadding: =0
@@ -97,13 +97,13 @@ Contract As screen:
             Y: =23
             ZIndex: =6
 
-        Label2 As label:
+        Label6 As label:
             OnSelect: =Select(Parent)
-            Text: =ThisItem.SampleText
+            Text: =ThisItem.contentMimetype
             Width: =800
             X: =20
-            Y: =97
-            ZIndex: =7
+            Y: =96
+            ZIndex: =8
 
     TypeLabel As label:
         Align: =Align.Center

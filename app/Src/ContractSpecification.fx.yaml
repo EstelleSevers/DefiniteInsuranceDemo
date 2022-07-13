@@ -24,11 +24,10 @@ ContractSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Number:
-            "
+            ="Number: " & numb
         Width: =405
         X: =63
-        Y: =194
+        Y: =118
         ZIndex: =3
 
     PartyIdentifierLabel_1 As label:
@@ -37,121 +36,49 @@ ContractSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Content:
+            ="ID:
             "
         Width: =405
         X: =63
-        Y: =272
+        Y: =177
         ZIndex: =4
 
-    PartyNamelabel_2 As label:
+    PartyIdentifierLabel_7 As label:
         Color: |
             =RGBA(0, 18, 107, 1)
         Height: =59
         Size: =20
         Text: |-
-            ="Name:
+            ="Length:
             "
         Width: =405
-        X: =845
-        Y: =497
-        ZIndex: =5
+        X: =63
+        Y: =233
+        ZIndex: =14
 
-    PartyIdentifierLabel_2 As label:
+    PartyIdentifierLabel_8 As label:
         Color: |
             =RGBA(0, 18, 107, 1)
         Height: =59
         Size: =20
         Text: |-
-            ="Identifier:
+            ="Mimetyp:
             "
         Width: =405
-        X: =845
-        Y: =575
-        ZIndex: =6
-
-    PartyNamelabel_3 As label:
-        Color: |
-            =RGBA(0, 18, 107, 1)
-        FontWeight: =FontWeight.Lighter
-        Height: =59
-        Size: =20
-        Text: ="Beneficiary information"
-        Width: =405
-        X: =816
-        Y: =429
-        ZIndex: =7
-
-    PartyNamelabel_4 As label:
-        Color: |
-            =RGBA(0, 18, 107, 1)
-        Height: =59
-        Size: =20
-        Text: |-
-            ="Name:
-            "
-        Width: =405
-        X: =855
+        X: =63
         Y: =292
-        ZIndex: =8
+        ZIndex: =15
 
-    PartyIdentifierLabel_3 As label:
+    PartyIdentifierLabel_9 As label:
         Color: |
             =RGBA(0, 18, 107, 1)
         Height: =59
         Size: =20
         Text: |-
-            ="Identifier:
+            ="Filename:
             "
         Width: =405
-        X: =855
-        Y: =370
-        ZIndex: =9
-
-    PartyNamelabel_5 As label:
-        Color: |
-            =RGBA(0, 18, 107, 1)
-        FontWeight: =FontWeight.Lighter
-        Height: =59
-        Size: =20
-        Text: ="Holder information"
-        Width: =405
-        X: =826
-        Y: =224
-        ZIndex: =10
-
-    PartyNamelabel_6 As label:
-        Color: |
-            =RGBA(0, 18, 107, 1)
-        Height: =59
-        Size: =20
-        Text: |-
-            ="Name:"
-        Width: =405
-        X: =855
-        Y: =59
-        ZIndex: =11
-
-    PartyIdentifierLabel_4 As label:
-        Color: |
-            =RGBA(0, 18, 107, 1)
-        Height: =59
-        Size: =20
-        Text: |-
-            ="Department:"
-        Width: =405
-        X: =855
-        Y: =137
-        ZIndex: =12
-
-    PartyNamelabel_7 As label:
-        Color: |
-            =RGBA(0, 18, 107, 1)
-        FontWeight: =FontWeight.Lighter
-        Height: =59
-        Size: =20
-        Text: ="Type information"
-        Width: =405
-        X: =816
-        ZIndex: =13
+        X: =63
+        Y: =351
+        ZIndex: =16
 
