@@ -5,9 +5,11 @@
       <object name="ManualTriggerInput" />
       <string name="ResponseActionOutput_items_def_name_def" />
       <string name="ResponseActionOutput_items_def_department_def" />
+      <string name="ResponseActionOutput_items_def_uuid_def" />
       <object name="ResponseActionOutput_items_def">
         <property name="name" type="string" />
         <property name="department" type="string" />
+        <property name="uuid" type="string" />
       </object>
       <array typeRef="ResponseActionOutput_items_def" name="ResponseActionOutput" />
       <object name="Run_responses_default_def" />
