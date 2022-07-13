@@ -56,7 +56,7 @@ Product As screen:
 
     "ProductGallery As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         Height: =595
-        Items: =TestCollection
+        Items: =ProductCollection
         Layout: =Layout.Vertical
         OnSelect: =Navigate(ProductSpecification,None)
         TemplatePadding: =0
