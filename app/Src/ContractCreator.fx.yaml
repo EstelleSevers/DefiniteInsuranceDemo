@@ -53,7 +53,15 @@ ContractCreator As screen:
         Icon: =Icon.Send
         OnSelect: |-
             =Clear(ContractCollection);
-            Collect(PartyCollection, PostParty.Run(CreatePartyIdentifierField.Text, CreatePartyNameField.Text);
+            Collect(ContractCollection, PostContract.Run(
+                CreateContractBeneficiaryField.Text, 
+                CreateContractFilenameField.Text, 
+                CreateContractBeneficiaryField.Text, 
+                CreateContractBeneficiaryField.Text, 
+                CreateContractBeneficiaryField.Text, 
+                CreateContractBeneficiaryField.Text, 
+                CreateContractBeneficiaryField.Text, 
+                CreateContractBeneficiaryField.Text);
             Navigate(PartySpecification, None, { 
                 name: CreatePartyNameField.Text,
                 identifier: CreatePartyIdentifierField.Text
