@@ -43,7 +43,7 @@ ContractCreator As screen:
         ZIndex: =3
 
     CreateContractBeneficiaryField As text:
-        Default: =""
+        Default: =_beneficiary
         HintText: ="Beneficiary"
         Width: =888
         X: =372
@@ -51,7 +51,7 @@ ContractCreator As screen:
         ZIndex: =4
 
     CreateContractFilenameField As text:
-        Default: =""
+        Default: =_filename
         HintText: ="Content Filename"
         Width: =888
         X: =372
@@ -153,7 +153,7 @@ ContractCreator As screen:
         ZIndex: =13
 
     CreateContractIDField As text:
-        Default: =""
+        Default: =_id
         HintText: ="Content ID"
         Width: =888
         X: =372
@@ -161,7 +161,7 @@ ContractCreator As screen:
         ZIndex: =14
 
     CreateContractLengthField As text:
-        Default: =""
+        Default: =_number
         HintText: ="Content Length"
         Width: =888
         X: =372
@@ -169,7 +169,7 @@ ContractCreator As screen:
         ZIndex: =15
 
     CreateContractMimetypeField As text:
-        Default: =""
+        Default: =_mime
         HintText: ="Content Mimetype"
         Width: =888
         X: =372
@@ -177,7 +177,7 @@ ContractCreator As screen:
         ZIndex: =16
 
     CreateContractHolderField As text:
-        Default: =""
+        Default: =_holder
         HintText: ="Holder"
         Width: =888
         X: =372
@@ -185,7 +185,7 @@ ContractCreator As screen:
         ZIndex: =17
 
     CreateContractNumberField As text:
-        Default: =""
+        Default: =_number
         HintText: ="Number"
         Width: =888
         X: =372
@@ -193,7 +193,7 @@ ContractCreator As screen:
         ZIndex: =18
 
     CreateContractTypeField As text:
-        Default: =""
+        Default: =_type
         HintText: ="Type"
         Width: =888
         X: =372
