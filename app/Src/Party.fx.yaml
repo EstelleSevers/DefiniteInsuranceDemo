@@ -73,7 +73,7 @@ Party As screen:
             Y: =159
             ZIndex: =5
 
-        Label5 As label:
+        PartyIDLabel As label:
             OnSelect: =Select(Parent)
             Text: |-
                 ="ID: " & ThisItem.id
@@ -82,7 +82,7 @@ Party As screen:
             Y: =23
             ZIndex: =6
 
-        Label5_1 As label:
+        PartyNameLabel As label:
             OnSelect: =Select(Parent)
             Text: |-
                 ="Name: " & ThisItem.name
