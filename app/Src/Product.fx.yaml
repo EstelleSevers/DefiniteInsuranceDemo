@@ -11,7 +11,7 @@ Product As screen:
         Icon: =Icon.Search
         OnSelect: |-
             =Clear(TestCollection);
-            Collect(TestCollection, FindAllProducts.Run());
+            ClearCollect(TestCollection, FindAllProducts.Run());
         X: =1130
         Y: =40
         ZIndex: =2
