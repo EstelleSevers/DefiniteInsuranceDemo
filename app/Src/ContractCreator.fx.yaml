@@ -1,4 +1,13 @@
 ContractCreator As screen:
+    OnVisible: |-
+        =Set(_beneficiary, "");
+        Set(_filename, "");
+        Set(_id, "");
+        Set(_length, "");
+        Set(_mime, "");
+        Set(_holder, "");
+        Set(_number, "");
+        Set(_type, "");
 
     ContractInfoLabel_3 As label:
         Color: |
