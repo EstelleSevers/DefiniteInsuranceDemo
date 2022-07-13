@@ -39,6 +39,40 @@
     "dependents": [],
     "id": "2e362aa9-29b2-455e-89a8-b21278ed4a01"
   },
+  "8cc2328b-783e-4ac7-9b9f-12ca4c6fbcd9": {
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-199.westeurope.logic.azure.com:443/workflows/f15ad69e3be44379a2268c3af5ab569e/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=VT6wlrJzec5vapvaBdD2yDa_LjPqG-0w7f78HsiJCtY",
+      "workflowEndpoint": "/subscriptions/2c8cfba1-d125-4f31-a479-50156c7ed09f/resourceGroups/b4d763ec8e40498cb2f1daebe44741df-5c70a8c06cc347a4b234c9a03acbf44b/providers/Microsoft.Logic/workflows/8b06ca45-0df6-4f93-9372-030c1ce3cb7e",
+      "workflowName": "8b06ca45-0df6-4f93-9372-030c1ce3cb7e",
+      "workflowPath": "/subscriptions/2c8cfba1-d125-4f31-a479-50156c7ed09f/resourceGroups/b4d763ec8e40498cb2f1daebe44741df-5c70a8c06cc347a4b234c9a03acbf44b/providers/Microsoft.Logic/workflows/8b06ca45-0df6-4f93-9372-030c1ce3cb7e"
+    },
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "8b06ca45-0df6-4f93-9372-030c1ce3cb7e"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "8b06ca45-0df6-4f93-9372-030c1ce3cb7e"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "FindAllParties"
+    ],
+    "dependencies": {
+      "shared_definiteinsuranceapi-5f7b42d5a8a3311321-5f78965c883697e162": "fc53706d-29c8-4071-87e8-ba565ec6f5de"
+    },
+    "dependents": [],
+    "id": "8cc2328b-783e-4ac7-9b9f-12ca4c6fbcd9"
+  },
   "fc53706d-29c8-4071-87e8-ba565ec6f5de": {
     "connectionParameters": {
       "sku": "Enterprise"
@@ -52,7 +86,8 @@
     "dataSources": [],
     "dependencies": {},
     "dependents": [
-      "2e362aa9-29b2-455e-89a8-b21278ed4a01"
+      "2e362aa9-29b2-455e-89a8-b21278ed4a01",
+      "8cc2328b-783e-4ac7-9b9f-12ca4c6fbcd9"
     ],
     "id": "fc53706d-29c8-4071-87e8-ba565ec6f5de"
   }

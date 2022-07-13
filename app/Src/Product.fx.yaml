@@ -10,8 +10,8 @@ Product As screen:
     ProductSearchButton As icon.Search:
         Icon: =Icon.Search
         OnSelect: |-
-            =Clear(TestCollection);
-            ClearCollect(TestCollection, FindAllProducts.Run());
+            =Clear(ProductCollection);
+            ClearCollect(ProductCollection, FindAllProducts.Run());
         X: =1130
         Y: =40
         ZIndex: =2
