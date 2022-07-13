@@ -57,7 +57,7 @@ ContractCreator As screen:
                 CreateContractBeneficiaryField.Text, 
                 CreateContractFilenameField.Text, 
                 CreateContractIDField.Text, 
-                CreateContractLengthField.Text, 
+                Value(CreateContractLengthField.Text), 
                 CreateContractMimetypeField.Text, 
                 CreateContractHolderField.Text, 
                 CreateContractNumberField.Text, 
