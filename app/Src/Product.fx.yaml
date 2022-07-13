@@ -58,7 +58,7 @@ Product As screen:
         Height: =595
         Items: =ProductCollection
         Layout: =Layout.Vertical
-        OnSelect: =Navigate(ProductSpecification,None)
+        OnSelect: =
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
         Width: =1112
