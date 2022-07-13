@@ -62,7 +62,7 @@ Product As screen:
             =Navigate(ProductSpecification, None, {
                 name: ThisItem.name,
                 department: ThisItem.department,
-                uuid: ThisItem.uuid
+                uuid: UrlParser.Run(ThisItem.uuid)
             })
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
