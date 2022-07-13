@@ -54,7 +54,7 @@ Product As screen:
 
     "ProductGallery As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         Height: =595
-        Items: =CustomGallerySample
+        Items: =TestCollection
         Layout: =Layout.Vertical
         OnSelect: =Navigate(ProductSpecification,None)
         TemplatePadding: =0
@@ -79,7 +79,7 @@ Product As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.SampleHeading
+            Text: =ThisItem.Value
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - Image2.Width - 104
             X: =Image2.X + Image2.Width + 24
@@ -93,7 +93,7 @@ Product As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.SampleText
+            Text: =ThisItem.Value
             VerticalAlign: =VerticalAlign.Top
             Width: =Title2.Width
             X: =Title2.X
