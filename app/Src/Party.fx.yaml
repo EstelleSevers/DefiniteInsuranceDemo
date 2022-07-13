@@ -66,22 +66,6 @@ Party As screen:
         Y: =144
         ZIndex: =8
 
-        NextArrow2_1 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Height: =60
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =10
-            PaddingLeft: =10
-            PaddingRight: =10
-            PaddingTop: =10
-            TabIndex: =0
-            Tooltip: ="View item details"
-            Width: =60
-            X: =Parent.TemplateWidth - Self.Width - 5
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =4
-
         Separator2_1 As rectangle:
             Height: =1
             OnSelect: =Select(Parent)
