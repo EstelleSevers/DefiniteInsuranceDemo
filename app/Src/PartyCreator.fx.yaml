@@ -48,7 +48,7 @@ PartyCreator As screen:
             Collect(PartyCollection, PostParty.Run(CreatePartyNameField.Text, CreatePartyIdentifierField.Text);
             Navigate(ProductSpecification, None, { 
                 name: CreatePartyNameField.Text,
-                department: CreatePartyIdentifierField.Text
+                identifier: CreatePartyIdentifierField.Text
             }));
         X: =30
         Y: =686
