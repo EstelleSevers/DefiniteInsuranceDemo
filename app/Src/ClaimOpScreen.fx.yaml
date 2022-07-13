@@ -22,7 +22,7 @@ ClaimOpScreen As screen:
     ClaimSearchBtn As button:
         Fill: =RGBA(0, 18, 107, 1)
         OnSelect: |-
-            =Clear(ClaimCollection);
+            =//Clear(ClaimCollection);
             Navigate(Claim)
         Text: ="Search"
         X: =299
