@@ -9,7 +9,9 @@ Claim As screen:
 
     ClaimSeachtButton As icon.Search:
         Icon: =Icon.Search
-        OnSelect: =Collect(ClaimCollection, {})
+        OnSelect: |-
+            =Clear(ClaimCollection);
+            Collect(ClaimCollection, {})
         X: =1130
         Y: =40
         ZIndex: =2
