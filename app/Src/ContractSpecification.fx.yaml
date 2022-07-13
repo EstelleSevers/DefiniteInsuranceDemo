@@ -24,7 +24,7 @@ ContractSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Number: " & numb
+            ="Number: " & number
         Width: =405
         X: =63
         Y: =118
@@ -36,8 +36,7 @@ ContractSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="ID:
-            "
+            ="ID: " & id
         Width: =405
         X: =63
         Y: =177
@@ -49,8 +48,7 @@ ContractSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Length:
-            "
+            ="Length: " & length
         Width: =405
         X: =63
         Y: =233
@@ -62,8 +60,7 @@ ContractSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Mimetyp:
-            "
+            ="Mimetype: " & mimetype 
         Width: =405
         X: =63
         Y: =292
@@ -75,10 +72,73 @@ ContractSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Filename:
-            "
+            ="Filename: " & filename
         Width: =405
         X: =63
         Y: =351
         ZIndex: =16
+
+    PartyNamelabel_2 As label:
+        Color: |
+            =RGBA(0, 18, 107, 1)
+        Height: =59
+        Size: =20
+        Text: |-
+            ="Beneficiary: "
+        Width: =405
+        X: =63
+        Y: =410
+        ZIndex: =17
+
+    PartyNamelabel_3 As label:
+        Color: |
+            =RGBA(0, 18, 107, 1)
+        Height: =59
+        Size: =20
+        Text: |-
+            ="Number: " & number
+        Width: =405
+        X: =63
+        Y: =469
+        ZIndex: =18
+
+    PartyNamelabel_4 As label:
+        Color: |
+            =RGBA(0, 18, 107, 1)
+        Height: =59
+        Size: =20
+        Text: |-
+            ="Number: " & number
+        Width: =405
+        X: =63
+        Y: =528
+        ZIndex: =19
+
+    Icon1 As icon.ArrowRight:
+        Icon: =Icon.ArrowRight
+        OnSelect: |-
+            =Clear(PartyCollection);
+            Collect(PartyCollection, 
+            Navigate(PartySpecification, None, {}
+        X: =233
+        Y: =410
+        ZIndex: =20
+
+    Icon1_1 As icon.ArrowRight:
+        Icon: =Icon.ArrowRight
+        OnSelect: |-
+            =false
+            false
+        X: =233
+        Y: =469
+        ZIndex: =21
+
+    Icon1_2 As icon.ArrowRight:
+        Icon: =Icon.ArrowRight
+        OnSelect: |-
+            =false
+            false
+        X: =233
+        Y: =533
+        ZIndex: =22
 
