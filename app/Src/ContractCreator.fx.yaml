@@ -62,10 +62,10 @@ ContractCreator As screen:
                 CreateContractHolderField.Text, 
                 CreateContractNumberField.Text, 
                 CreateContractTypeField.Text);
-            Navigate(PartySpecification, None, { 
+            Navigate(ContractSpecification, None, { 
                 number: CreateContractNumberField.Text,
                 id: CreateContractIDField.Text,
-                length: CreateContractLengthField.Text,
+                length: Value(CreateContractLengthField.Text),
                 mimetype: CreateContractMimetypeField.Text,
                 filename: CreateContractFilenameField.Text,
                 beneficiary: CreateContractBeneficiaryField.Text,
