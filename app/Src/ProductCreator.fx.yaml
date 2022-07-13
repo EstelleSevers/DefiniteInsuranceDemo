@@ -27,7 +27,7 @@ ProductCreator As screen:
         Y: =205
         ZIndex: =3
 
-    CreateProductNameInput As text:
+    CreateProductNameField As text:
         Default: =""
         HintText: ="Name"
         X: =372
@@ -43,6 +43,10 @@ ProductCreator As screen:
 
     Icon2 As icon.Send:
         Icon: =Icon.Send
+        OnSelect: |-
+            =Clear(ProductCollection);
+            Collect(ProductCollection, PostProduct.Run(CreateProductNameField.Text, CreateProductDepartmentField.Text);
+            Navigate(ProductSp
         X: =30
         Y: =686
         ZIndex: =6
