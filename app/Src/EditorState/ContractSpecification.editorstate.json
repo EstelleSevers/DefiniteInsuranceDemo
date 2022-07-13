@@ -45,7 +45,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ContractBeneficiaryArrow",
-      "ParentIndex": 9,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -217,7 +217,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ContractHolderArrow",
-      "ParentIndex": 11,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -708,7 +708,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ContractInfoLabel_4",
-      "ParentIndex": 1,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -992,7 +992,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ContractSpecBackArrow",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1210,7 +1210,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ContractSpecBeneficiaryLabel",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1493,7 +1493,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ContractSpecContentIDLabel",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1776,7 +1776,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ContractSpecContentLengthLabel",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2059,7 +2059,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ContractSpecFilenameLabel",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2342,7 +2342,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ContractSpecHolderLabel",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2706,7 +2706,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ContractSpecMimetypeLabel",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2989,7 +2989,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ContractSpecNumberLabel",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3272,7 +3272,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ContractSpecTypeLabel",
-      "ParentIndex": 12,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3519,7 +3519,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ContractTypeArrow",
-      "ParentIndex": 13,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
