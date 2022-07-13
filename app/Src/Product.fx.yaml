@@ -61,7 +61,8 @@ Product As screen:
         OnSelect: |
             =Navigate(ProductSpecification, None, {
                 name: ThisItem.name,
-                department: ThisItem.department
+                department: ThisItem.department,
+                uuid: UrlParser.Run(ThisItem.uuid)
             })
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
@@ -98,7 +99,7 @@ Product As screen:
         Icon1 As icon.ChevronRight:
             Height: =60
             Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
+            OnSelect: =Select(Parent);
             PaddingBottom: =10
             PaddingTop: =10
             Width: =60

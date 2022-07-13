@@ -256,6 +256,38 @@
     "dependents": [],
     "id": "69cbe968-37b8-499b-898a-2469fb9f8242"
   },
+  "7dcf8557-8364-4c6e-bcf7-d0503821625e": {
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-34.westeurope.logic.azure.com:443/workflows/94432a9fde0c4c8cb87e6be2c50399ac/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=l0vcMznFBRaLuJwV12bhMKcGhccCGT1-cnxnTd02Ukk",
+      "workflowEndpoint": "/subscriptions/2c8cfba1-d125-4f31-a479-50156c7ed09f/resourceGroups/b4d763ec8e40498cb2f1daebe44741df-b736eed6567147fa96b55dff8b5f1eaf/providers/Microsoft.Logic/workflows/b5fee091-efd0-461a-a539-59582f5c7774",
+      "workflowName": "b5fee091-efd0-461a-a539-59582f5c7774",
+      "workflowPath": "/subscriptions/2c8cfba1-d125-4f31-a479-50156c7ed09f/resourceGroups/b4d763ec8e40498cb2f1daebe44741df-b736eed6567147fa96b55dff8b5f1eaf/providers/Microsoft.Logic/workflows/b5fee091-efd0-461a-a539-59582f5c7774"
+    },
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "b5fee091-efd0-461a-a539-59582f5c7774"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "b5fee091-efd0-461a-a539-59582f5c7774"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "UrlParser"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "7dcf8557-8364-4c6e-bcf7-d0503821625e"
+  },
   "8cc2328b-783e-4ac7-9b9f-12ca4c6fbcd9": {
     "connectionParameters": {
       "workFlowCallbackUri": "https://prod-199.westeurope.logic.azure.com:443/workflows/f15ad69e3be44379a2268c3af5ab569e/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=VT6wlrJzec5vapvaBdD2yDa_LjPqG-0w7f78HsiJCtY",
