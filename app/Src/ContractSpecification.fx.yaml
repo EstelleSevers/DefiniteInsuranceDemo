@@ -10,12 +10,12 @@ ContractSpecification As screen:
     ContractInfoLabel As label:
         Color: |
             =RGBA(0, 18, 107, 1)
-        Height: =59
+        Height: =64
         Size: =20
-        Text: ="Information about contract with id"
-        Width: =438
+        Text: ="Information about contract with id " & id
+        Width: =1230
         X: =30
-        Y: =45
+        Y: =40
         ZIndex: =2
 
     PartyNamelabel_1 As label:
