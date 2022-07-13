@@ -61,3 +61,14 @@ ProductSpecification As screen:
         Y: =358
         ZIndex: =5
 
+    Icon3 As icon.Copy:
+        Height: =60
+        Icon: =Icon.Copy
+        OnSelect: =Notify("Not supported", NotificationType.Error)
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =60
+        X: =1260
+        Y: =360
+        ZIndex: =6
+
