@@ -76,7 +76,7 @@ Contract As screen:
         Y: =144
         ZIndex: =6
 
-        NextArrow2_2 As icon.ChevronRight:
+        MoreContractInfo As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Height: =60
             Icon: =Icon.ChevronRight
@@ -99,7 +99,7 @@ Contract As screen:
             Y: =159
             ZIndex: =5
 
-        Label1 As label:
+        ContractFileLabel As label:
             OnSelect: =Select(Parent)
             Text: |-
                 ="File: " & ThisItem.contentFilename
@@ -108,7 +108,7 @@ Contract As screen:
             Y: =23
             ZIndex: =6
 
-        Label6 As label:
+        ContractContentTypeLabel As label:
             OnSelect: =Select(Parent)
             Text: |-
                 ="Content Type: " & ThisItem.contentMimetype

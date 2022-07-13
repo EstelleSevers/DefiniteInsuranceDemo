@@ -96,7 +96,7 @@ ContractSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Number: " & number
+            ="Holder:"
         Width: =405
         X: =63
         Y: =481
@@ -107,11 +107,10 @@ ContractSpecification As screen:
             =RGBA(0, 18, 107, 1)
         Height: =59
         Size: =20
-        Text: |-
-            ="Number: " & number
+        Text: ="Type"
         Width: =405
         X: =63
-        Y: =540
+        Y: =545
         ZIndex: =19
 
     Icon1 As icon.ArrowRight:
@@ -132,6 +131,6 @@ ContractSpecification As screen:
         Icon: =Icon.ArrowRight
         OnSelect: =Navigate(PartySpecification, None, {})
         X: =233
-        Y: =540
+        Y: =545
         ZIndex: =22
 
