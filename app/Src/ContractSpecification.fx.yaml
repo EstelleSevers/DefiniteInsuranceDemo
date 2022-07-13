@@ -11,7 +11,16 @@ ContractSpecification As screen:
 
     ContractSpecBackArrow As icon.BackArrow:
         Icon: =Icon.BackArrow
-        OnSelect: =Back()
+        OnSelect: |-
+            =Back();
+            Set(_contractSpecNumber, "");
+            Set(_contractSpecID, "");
+            Set(_contractSpecLength, 0);
+            Set(_contractSpecMimetype, "");
+            Set(_contractSpecFilename, "");
+            Set(_contractSpecBeneficiary, "");
+            Set(_contractSpecHolder, "");
+            Set(_contractSpecType, "");
         X: =1260
         Y: =40
         ZIndex: =1

@@ -5,7 +5,10 @@ ProductSpecification As screen:
 
     PartySpecBackArrow_1 As icon.BackArrow:
         Icon: =Icon.BackArrow
-        OnSelect: =Back()
+        OnSelect: |-
+            =Back();
+            Set(_productSpecName, "");
+            Set(_productSpecDepartment, "");
         X: =1260
         Y: =40
         ZIndex: =1
@@ -28,7 +31,7 @@ ProductSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Name: " & name
+            ="Name: " & _productSpecName
         Width: =405
         X: =75
         Y: =135
@@ -40,7 +43,7 @@ ProductSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Department: " & department
+            ="Department: " & _productSpecDepartment
         Width: =405
         X: =75
         Y: =213
