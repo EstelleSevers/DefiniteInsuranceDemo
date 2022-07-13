@@ -24,7 +24,7 @@ ProductSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Name: " & name
+            ="Name: " & name.name
         Width: =405
         X: =75
         Y: =135
@@ -36,7 +36,7 @@ ProductSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Department: " & department
+            ="Department: " & department.department
         Width: =405
         X: =75
         Y: =213

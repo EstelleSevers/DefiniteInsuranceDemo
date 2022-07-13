@@ -23,10 +23,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 4,
-                  "charOffset": 11,
+                  "charLength": 5,
+                  "charOffset": 15,
                   "snippet": {
-                    "text": "name"
+                    "text": ".name"
                   }
                 }
               },
@@ -38,15 +38,12 @@
             }
           ],
           "message": {
-            "arguments": [
-              "Text, Number, Date, Time, DateTimeNoTimeZone, DateTime, Boolean, OptionSetValue, ViewValue"
-            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrBadType-ExpectedTypesCSV",
+          "ruleId": "app-ErrInvalidDot",
           "ruleIndex": 0
         },
         {
@@ -63,10 +60,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 10,
-                  "charOffset": 17,
+                  "charLength": 11,
+                  "charOffset": 27,
                   "snippet": {
-                    "text": "department"
+                    "text": ".department"
                   }
                 }
               },
@@ -78,15 +75,12 @@
             }
           ],
           "message": {
-            "arguments": [
-              "Text, Number, Date, Time, DateTimeNoTimeZone, DateTime, Boolean, OptionSetValue, ViewValue"
-            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrBadType-ExpectedTypesCSV",
+          "ruleId": "app-ErrInvalidDot",
           "ruleIndex": 0
         },
         {
@@ -1654,36 +1648,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ProductCreator.Icon2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProductCreator.Icon2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ProductCreator",
-                "type": "ProductCreator.Icon2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "ProductCreator.Icon2.TabIndex"
                 }
               ],
@@ -1708,6 +1672,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProductCreator.Icon2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProductCreator.Icon2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ProductCreator",
+                "type": "ProductCreator.Icon2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1806,10 +1800,10 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "app-ErrBadType-ExpectedTypesCSV",
+              "id": "app-ErrInvalidDot",
               "messageStrings": {
                 "issue": {
-                  "text": "Invalid argument type. Expecting one of the following: {0}."
+                  "text": "Invalid use of '.'"
                 }
               },
               "properties": {

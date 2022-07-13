@@ -47,8 +47,8 @@ ProductCreator As screen:
             =Clear(ProductCollection);
             Collect(ProductCollection, PostProduct.Run(CreateProductNameField.Text, CreateProductDepartmentField.Text);
             Navigate(ProductSpecification, None, { 
-                name: ProductCollection.name,
-                department: ProductCollection.department
+                name: CreateProductNameField.Text,
+                department: CreateProductDepartmentField.Text
             }));
         X: =30
         Y: =686
