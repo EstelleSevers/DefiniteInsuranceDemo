@@ -114,11 +114,11 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/13/2022 08:14:59",
+  "HeaderLastSavedDateTimeUTC": "07/13/2022 08:17:57",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "744f1f42-91d6-4704-acd5-6775621daabb": "\"/providers/microsoft.powerapps/apis/shared_definiteinsuranceapi-5f7b42d5a8a3311321-5f78965c883697e162/connections/shared-definiteinsur-b89a0e0a-e305-4341-9cc1-2b804ff00f64\"",
-    "d4b519ed-30ab-45a5-bcdd-42e1df2fb301": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/CC7ADB93694941368AFAC7F090826328-911675C9C888F55D\""
+    "2e362aa9-29b2-455e-89a8-b21278ed4a01": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/CC7ADB93694941368AFAC7F090826328-911675C9C888F55D\"",
+    "fc53706d-29c8-4071-87e8-ba565ec6f5de": "\"/providers/microsoft.powerapps/apis/shared_definiteinsuranceapi-5f7b42d5a8a3311321-5f78965c883697e162/connections/shared-definiteinsur-b89a0e0a-e305-4341-9cc1-2b804ff00f64\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
