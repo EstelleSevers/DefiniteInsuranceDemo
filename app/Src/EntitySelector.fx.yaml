@@ -37,7 +37,7 @@ EntitySelector As screen:
 
     PartyOpButton As button:
         Fill: =RGBA(0, 18, 107, 1)
-        OnSelect: =Navigate((PartyOpScreen)
+        OnSelect: =Navigate(PartyOpScreen)
         Text: ="Party"
         X: =705
         Y: =417
