@@ -1,17 +1,25 @@
 Party As screen:
 
     PartyBackArrow As icon.BackArrow:
+        Height: =60
         Icon: =Icon.BackArrow
         OnSelect: =Back()
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =60
         X: =1260
         Y: =40
         ZIndex: =1
 
     PartySearchButton As icon.Search:
+        Height: =60
         Icon: =Icon.Search
         OnSelect: |-
             =Clear(PartyCollection);
             Collect(PartyCollection, FindAllParties.Run())
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =60
         X: =1130
         Y: =40
         ZIndex: =3

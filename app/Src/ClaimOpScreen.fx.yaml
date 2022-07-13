@@ -51,8 +51,12 @@ ClaimOpScreen As screen:
         ZIndex: =6
 
     ClaimBackEntity As icon.BackArrow:
+        Height: =60
         Icon: =Icon.BackArrow
         OnSelect: =Back()
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =60
         X: =1260
         Y: =40
         ZIndex: =7

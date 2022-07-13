@@ -1,17 +1,25 @@
 Product As screen:
 
     ProductBackArrow As icon.BackArrow:
+        Height: =60
         Icon: =Icon.BackArrow
         OnSelect: =Back()
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =60
         X: =1260
         Y: =40
         ZIndex: =1
 
     ProductSearchButton As icon.Search:
+        Height: =60
         Icon: =Icon.Search
         OnSelect: |-
             =Clear(ProductCollection);
             ClearCollect(ProductCollection, FindAllProducts.Run());
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =60
         X: =1130
         Y: =40
         ZIndex: =2

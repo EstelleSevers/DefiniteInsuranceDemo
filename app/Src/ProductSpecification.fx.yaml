@@ -4,11 +4,15 @@ ProductSpecification As screen:
         Set(_productSpecDepartment, department);
 
     PartySpecBackArrow_1 As icon.BackArrow:
+        Height: =60
         Icon: =Icon.BackArrow
         OnSelect: |-
             =Back();
             Set(_productSpecName, "");
             Set(_productSpecDepartment, "");
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =60
         X: =1260
         Y: =40
         ZIndex: =1
@@ -58,7 +62,7 @@ ProductSpecification As screen:
             ="Related UUID: " & uuid.uuid
         Width: =1230
         X: =30
-        Y: =358
+        Y: =222
         ZIndex: =5
 
     Icon3 As icon.Copy:
@@ -69,6 +73,6 @@ ProductSpecification As screen:
         PaddingTop: =10
         Width: =60
         X: =1260
-        Y: =360
+        Y: =224
         ZIndex: =6
 

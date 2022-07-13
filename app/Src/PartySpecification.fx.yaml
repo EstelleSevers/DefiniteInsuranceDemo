@@ -4,11 +4,15 @@ PartySpecification As screen:
         Set(_partySpecIdent, identifier);
 
     PartySpecBackArrow As icon.BackArrow:
+        Height: =60
         Icon: =Icon.BackArrow
         OnSelect: |-
             =Back();
             Set(_partySpecName, "");
             Set(_partySpecIdent, "");
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =60
         X: =1260
         Y: =40
         ZIndex: =1

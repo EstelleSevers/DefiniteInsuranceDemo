@@ -10,6 +10,7 @@ ContractSpecification As screen:
         Set(_contractSpecType, type);
 
     ContractSpecBackArrow As icon.BackArrow:
+        Height: =60
         Icon: =Icon.BackArrow
         OnSelect: |-
             =Back();
@@ -21,6 +22,9 @@ ContractSpecification As screen:
             Set(_contractSpecBeneficiary, "");
             Set(_contractSpecHolder, "");
             Set(_contractSpecType, "");
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =60
         X: =1260
         Y: =40
         ZIndex: =1

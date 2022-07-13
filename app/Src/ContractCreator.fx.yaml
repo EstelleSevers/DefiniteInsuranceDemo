@@ -59,6 +59,7 @@ ContractCreator As screen:
         ZIndex: =5
 
     Icon2_2 As icon.Send:
+        Height: =60
         Icon: =Icon.Send
         OnSelect: |-
             =Clear(ContractCollection);
@@ -81,13 +82,20 @@ ContractCreator As screen:
                 holder: CreateContractHolderField.Text,
                 type: CreateContractTypeField.Text
             }));
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =60
         X: =1280
         Y: =681
         ZIndex: =6
 
     PartyBackArrow_3 As icon.BackArrow:
+        Height: =60
         Icon: =Icon.BackArrow
         OnSelect: =Back()
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =60
         X: =1280
         Y: =60
         ZIndex: =7

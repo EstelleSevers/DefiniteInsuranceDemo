@@ -1,17 +1,25 @@
 Contract As screen:
 
     ContractBackArrow As icon.BackArrow:
+        Height: =60
         Icon: =Icon.BackArrow
         OnSelect: =Back()
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =60
         X: =1260
         Y: =40
         ZIndex: =1
 
     ContractSearchButton As icon.Search:
+        Height: =60
         Icon: =Icon.Search
         OnSelect: |-
             =Clear(ContractCollection);
             Collect(ContractCollection, FindAllContracts.Run());
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =60
         X: =1130
         Y: =40
         ZIndex: =2
@@ -67,7 +75,8 @@ Contract As screen:
                 filename: ThisItem.contentFilename,
                 beneficiary: ThisItem.beneficiary,
                 holder: ThisItem.holder,
-                type: ThisItem.type
+                type: ThisItem.type,
+                uuid: UrlParser.Run(ThisItem.uuid)
             })
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)

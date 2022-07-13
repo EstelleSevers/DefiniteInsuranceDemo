@@ -45,6 +45,7 @@ PartyCreator As screen:
         ZIndex: =5
 
     Icon2_1 As icon.Send:
+        Height: =60
         Icon: =Icon.Send
         OnSelect: |-
             =Clear(PartyCollection);
@@ -53,13 +54,20 @@ PartyCreator As screen:
                 name: CreatePartyNameField.Text,
                 identifier: CreatePartyIdentifierField.Text
             }));
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =60
         X: =1280
         Y: =681
         ZIndex: =6
 
     PartyBackArrow_4 As icon.BackArrow:
+        Height: =60
         Icon: =Icon.BackArrow
         OnSelect: =Back()
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =60
         X: =1280
         Y: =60
         ZIndex: =7
