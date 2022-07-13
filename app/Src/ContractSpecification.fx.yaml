@@ -99,7 +99,7 @@ ContractSpecification As screen:
             ="Number: " & number
         Width: =405
         X: =63
-        Y: =469
+        Y: =481
         ZIndex: =18
 
     PartyNamelabel_4 As label:
@@ -111,7 +111,7 @@ ContractSpecification As screen:
             ="Number: " & number
         Width: =405
         X: =63
-        Y: =528
+        Y: =540
         ZIndex: =19
 
     Icon1 As icon.ArrowRight:
@@ -125,13 +125,13 @@ ContractSpecification As screen:
         Icon: =Icon.ArrowRight
         OnSelect: =Navigate(PartySpecification, None, {})
         X: =233
-        Y: =469
+        Y: =481
         ZIndex: =21
 
     Icon1_2 As icon.ArrowRight:
         Icon: =Icon.ArrowRight
         OnSelect: =Navigate(PartySpecification, None, {})
         X: =233
-        Y: =533
+        Y: =540
         ZIndex: =22
 
