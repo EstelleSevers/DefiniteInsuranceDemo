@@ -58,7 +58,17 @@ Contract As screen:
         Height: =595
         Items: =ContractCollection
         Layout: =Layout.Vertical
-        OnSelect: =Navigate(ContractSpecification, None)
+        OnSelect: |-
+            =Navigate(ContractSpecification, None, {
+                number: ThisItem.number,
+                id: ThisItem.contentID,
+                length: ThisItem.contentLength,
+                mimetype: ThisItem.contentMimetype,
+                filename: ThisItem.contentFilename,
+                beneficiary: ThisItem.beneficiary,
+                holder: ThisItem.holder,
+                type: ThisItem.type
+            })
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
         Width: =1104
