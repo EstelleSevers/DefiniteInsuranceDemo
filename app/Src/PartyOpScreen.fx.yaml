@@ -21,7 +21,9 @@ PartyOpScreen As screen:
 
     PartySearchBtn As button:
         Fill: =RGBA(0, 18, 107, 1)
-        OnSelect: =Navigate(Party)
+        OnSelect: |-
+            =Clear(PartyCollection);
+            Navigate(Party)
         Text: ="Search"
         X: =299
         Y: =417

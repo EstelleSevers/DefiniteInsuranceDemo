@@ -21,7 +21,9 @@ ContractOpScreen As screen:
 
     ContractSearchBtn As button:
         Fill: =RGBA(0, 18, 107, 1)
-        OnSelect: =Navigate(Contract)
+        OnSelect: |-
+            =Clear(ContractCollection);
+            Navigate(Contract)
         Text: ="Search"
         X: =299
         Y: =417
