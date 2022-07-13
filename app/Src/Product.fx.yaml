@@ -93,6 +93,7 @@ Product As screen:
             OnSelect: =Select(Parent)
             Text: |-
                 ="Department: " & ThisItem.department
+            Width: =400
             X: =12
             Y: =23
             ZIndex: =6
@@ -101,6 +102,7 @@ Product As screen:
             OnSelect: =Select(Parent)
             Text: |-
                 ="Product Name: " & ThisItem.name
+            Width: =400
             X: =12
             Y: =97
             ZIndex: =7
