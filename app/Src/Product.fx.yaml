@@ -58,6 +58,11 @@ Product As screen:
         Height: =595
         Items: =ProductCollection
         Layout: =Layout.Vertical
+        OnSelect: |
+            =Navigate(ProductSpecification, None, {
+                name: ThisItem.name,
+                department: ThisItem.department
+            })
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
         Width: =1112
@@ -89,4 +94,15 @@ Product As screen:
             X: =12
             Y: =97
             ZIndex: =7
+
+        Icon1 As icon.ChevronRight:
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingTop: =10
+            Width: =60
+            X: =1052
+            Y: =50
+            ZIndex: =8
 
