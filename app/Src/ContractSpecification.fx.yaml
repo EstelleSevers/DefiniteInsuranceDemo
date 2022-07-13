@@ -1,4 +1,13 @@
 ContractSpecification As screen:
+    OnVisible: |-
+        =Set(_contractSpecNumber, number);
+        Set(_contractSpecID, id);
+        Set(_contractSpecLength, length);
+        Set(_contractSpecMimetype, mimetype);
+        Set(_contractSpecFilename, filename);
+        Set(_contractSpecBeneficiary, beneficiary);
+        Set(_contractSpecHolder, holder);
+        Set(_contractSpecType, type);
 
     ContractSpecBackArrow As icon.BackArrow:
         Icon: =Icon.BackArrow
@@ -24,7 +33,7 @@ ContractSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Number: " & number
+            ="Number: " & _contractSpecNumber
         Width: =405
         X: =63
         Y: =118
@@ -36,7 +45,7 @@ ContractSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="ID: " & id
+            ="ID: " & _contractSpecID
         Width: =405
         X: =63
         Y: =177
@@ -48,7 +57,7 @@ ContractSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Length: " & length
+            ="Length: " & _contractSpecLength
         Width: =405
         X: =63
         Y: =233
@@ -60,7 +69,7 @@ ContractSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Mimetype: " & mimetype 
+            ="Mimetype: " & _contractSpecMimetype
         Width: =405
         X: =63
         Y: =292
@@ -72,7 +81,7 @@ ContractSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Filename: " & filename
+            ="Filename: " & _contractSpecFilename
         Width: =405
         X: =63
         Y: =351

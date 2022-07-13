@@ -2384,17 +2384,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App._department"
+                  "fullyQualifiedName": "App._contractSpecBeneficiary"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App._department",
+                  "fullyQualifiedName": "App._contractSpecBeneficiary",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "_department",
+                "member": "_contractSpecBeneficiary",
                 "module": "App",
                 "type": "App"
               }
@@ -2414,17 +2414,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App._productname"
+                  "fullyQualifiedName": "App._contractSpecHolder"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App._productname",
+                  "fullyQualifiedName": "App._contractSpecHolder",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "_productname",
+                "member": "_contractSpecHolder",
                 "module": "App",
                 "type": "App"
               }
@@ -2444,19 +2444,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ContractSpecification.beneficiary"
+                  "fullyQualifiedName": "App._contractSpecType"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ContractSpecification.beneficiary",
+                  "fullyQualifiedName": "App._contractSpecType",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "beneficiary",
-                "module": "ContractSpecification",
-                "type": "ContractSpecification"
+                "member": "_contractSpecType",
+                "module": "App",
+                "type": "App"
               }
             }
           ],
@@ -2474,19 +2474,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ContractSpecification.holder"
+                  "fullyQualifiedName": "App._productSpecDepartment"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ContractSpecification.holder",
+                  "fullyQualifiedName": "App._productSpecDepartment",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "holder",
-                "module": "ContractSpecification",
-                "type": "ContractSpecification"
+                "member": "_productSpecDepartment",
+                "module": "App",
+                "type": "App"
               }
             }
           ],
@@ -2504,19 +2504,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ContractSpecification.type"
+                  "fullyQualifiedName": "App._productSpecName"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ContractSpecification.type",
+                  "fullyQualifiedName": "App._productSpecName",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "type",
-                "module": "ContractSpecification",
-                "type": "ContractSpecification"
+                "member": "_productSpecName",
+                "module": "App",
+                "type": "App"
               }
             }
           ],

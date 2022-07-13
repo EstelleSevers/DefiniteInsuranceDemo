@@ -31,14 +31,14 @@ ProductCreator As screen:
         ZIndex: =3
 
     CreateProductNameField As text:
-        Default: =""
+        Default: =_productname
         HintText: ="Name"
         X: =372
         Y: =154
         ZIndex: =4
 
     CreateProductDepartmentField As text:
-        Default: =""
+        Default: =_department
         HintText: ="Department"
         X: =372
         Y: =216

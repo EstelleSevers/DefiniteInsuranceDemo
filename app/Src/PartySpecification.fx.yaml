@@ -1,8 +1,14 @@
 PartySpecification As screen:
+    OnVisible: |-
+        =Set(_partySpecName, name);
+        Set(_partySpecIdent, identifier);
 
     PartySpecBackArrow As icon.BackArrow:
         Icon: =Icon.BackArrow
-        OnSelect: =Back()
+        OnSelect: |-
+            =Back();
+            Set(_partySpecName, "");
+            Set(_partySpecIdent, "");
         X: =1260
         Y: =40
         ZIndex: =1
@@ -24,7 +30,7 @@ PartySpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Name: " & name
+            ="Name: " & _partySpecName
         Width: =405
         X: =75
         Y: =135
@@ -36,7 +42,7 @@ PartySpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Identifier: " & identifier
+            ="Identifier: " & _partySpecIdent
         Width: =405
         X: =75
         Y: =213

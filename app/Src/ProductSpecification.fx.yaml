@@ -1,4 +1,7 @@
 ProductSpecification As screen:
+    OnVisible: |-
+        =Set(_productSpecName, name);
+        Set(_productSpecDepartment, department);
 
     PartySpecBackArrow_1 As icon.BackArrow:
         Icon: =Icon.BackArrow
