@@ -49,7 +49,7 @@ ProductCreator As screen:
             Navigate(ProductSpecification, None, { 
                 name: ProductCollection.name,
                 department: ProductCollection.department
-            });
+            }));
         X: =30
         Y: =686
         ZIndex: =6
