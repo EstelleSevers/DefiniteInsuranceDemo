@@ -1,0 +1,57 @@
+ContractOpScreen As screen:
+
+    Label1_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(0, 18, 107, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =58
+        Size: =25
+        Text: ="Contract Entity"
+        Width: =1366
+        Y: =308
+        ZIndex: =1
+
+    Label2_2 As label:
+        Align: =Align.Center
+        Height: =28
+        Text: =" Select which operation you want to execute"
+        Width: =1366
+        Y: =366
+        ZIndex: =2
+
+    ContractSearchBtn As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate(Contract)
+        Text: ="Search"
+        X: =299
+        Y: =417
+        ZIndex: =3
+
+    ContractCreateBtn As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        Text: ="Create"
+        X: =502
+        Y: =417
+        ZIndex: =4
+
+    ContractUpdateBtn As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        Text: ="Update"
+        X: =705
+        Y: =417
+        ZIndex: =5
+
+    ContractDeleteBtn As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        Text: ="Delete"
+        X: =907
+        Y: =417
+        ZIndex: =6
+
+    ContractBackEntity As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =1260
+        Y: =40
+        ZIndex: =7
+

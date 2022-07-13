@@ -1,0 +1,57 @@
+PartyOpScreen As screen:
+
+    Label1_3 As label:
+        Align: =Align.Center
+        Color: =RGBA(0, 18, 107, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =58
+        Size: =25
+        Text: ="Party Entity"
+        Width: =1366
+        Y: =308
+        ZIndex: =1
+
+    Label2_3 As label:
+        Align: =Align.Center
+        Height: =28
+        Text: =" Select which operation you want to execute"
+        Width: =1366
+        Y: =366
+        ZIndex: =2
+
+    PartySearchBtn As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate(Party)
+        Text: ="Search"
+        X: =299
+        Y: =417
+        ZIndex: =3
+
+    PartyCreateBtn As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        Text: ="Create"
+        X: =502
+        Y: =417
+        ZIndex: =4
+
+    PartyUpdateBtn As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        Text: ="Update"
+        X: =705
+        Y: =417
+        ZIndex: =5
+
+    PartyDeleteBtn As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        Text: ="Delete"
+        X: =907
+        Y: =417
+        ZIndex: =6
+
+    PartyBackEntity As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =1260
+        Y: =40
+        ZIndex: =7
+

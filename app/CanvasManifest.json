@@ -102,7 +102,6 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "EntryScreen",
     "Party",
     "Contract",
     "Product",
@@ -114,6 +113,10 @@
     "PartyCreator",
     "ContractCreator",
     "ProductCreator",
-    "ClaimCreator"
+    "ClaimCreator",
+    "EntitySelector",
+    "ClaimOpScreen",
+    "ContractOpScreen",
+    "PartyOpScreen"
   ]
 }
