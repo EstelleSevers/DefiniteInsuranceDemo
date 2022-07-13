@@ -9,7 +9,9 @@ Product As screen:
 
     ProductSearchButton As icon.Search:
         Icon: =Icon.Search
-        OnSelect: =Collect(TestCollection, FindAllProducts.Run())
+        OnSelect: |-
+            =Clear(TestCollection);
+            Collect(TestCollection, FindAllProducts.Run());
         X: =1130
         Y: =40
         ZIndex: =2
