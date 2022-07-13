@@ -464,6 +464,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Claim.ClaimSeachtButton.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Claim.ClaimSeachtButton.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Claim",
+                "type": "Claim.ClaimSeachtButton"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "PartyOpScreen.PartyBackEntity.TabIndex"
                 }
               ],
@@ -1424,19 +1454,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Claim.ContractsInput.AccessibleLabel"
+                  "fullyQualifiedName": "Claim.ClaimSeachtButton.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Claim.ContractsInput.AccessibleLabel",
+                  "fullyQualifiedName": "Claim.ClaimSeachtButton.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Claim",
-                "type": "Claim.ContractsInput"
+                "type": "Claim.ClaimSeachtButton"
               }
             }
           ],
