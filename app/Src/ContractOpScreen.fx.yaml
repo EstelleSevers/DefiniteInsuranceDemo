@@ -29,6 +29,7 @@ ContractOpScreen As screen:
 
     ContractCreateBtn As button:
         Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate(ContractCreator)
         Text: ="Create"
         X: =502
         Y: =417

@@ -29,6 +29,7 @@ EntitySelector As screen:
 
     ContractOpButton As button:
         Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate(ContractOpScreen)
         Text: ="Contract"
         X: =502
         Y: =417
@@ -36,6 +37,7 @@ EntitySelector As screen:
 
     PartyOpButton As button:
         Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate((PartyOpScreen)
         Text: ="Party"
         X: =705
         Y: =417

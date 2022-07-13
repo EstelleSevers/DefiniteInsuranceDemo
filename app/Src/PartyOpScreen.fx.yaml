@@ -29,6 +29,7 @@ PartyOpScreen As screen:
 
     PartyCreateBtn As button:
         Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate(PartyCreator)
         Text: ="Create"
         X: =502
         Y: =417
