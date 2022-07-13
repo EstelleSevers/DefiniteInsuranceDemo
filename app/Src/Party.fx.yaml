@@ -9,6 +9,9 @@ Party As screen:
 
     PartySearchButton As icon.Search:
         Icon: =Icon.Search
+        OnSelect: |-
+            =Clear(PartyCollection);
+            Collect(PartyCollection, FindAllParties.Run())
         X: =1130
         Y: =40
         ZIndex: =3

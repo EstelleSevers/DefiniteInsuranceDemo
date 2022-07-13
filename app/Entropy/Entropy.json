@@ -116,7 +116,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/13/2022 08:31:38",
+  "HeaderLastSavedDateTimeUTC": "07/13/2022 08:32:06",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "2e362aa9-29b2-455e-89a8-b21278ed4a01": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/cc7adb93694941368afac7f090826328-911675c9c888f55d\"",
@@ -132,7 +132,8 @@
     "CustomGallerySample": 2,
     "FindAllParties": 1,
     "FindAllProducts": 0,
-    "ProductCollection": 3
+    "PartyCollection": 3,
+    "ProductCollection": 4
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
