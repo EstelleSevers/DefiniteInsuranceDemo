@@ -37,8 +37,7 @@ PartySpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Identifier:
-            "
+            ="Identifier: " & identifier
         Width: =405
         X: =75
         Y: =213
