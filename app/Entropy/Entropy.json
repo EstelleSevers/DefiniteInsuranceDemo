@@ -41,9 +41,10 @@
     "galleryTemplate3": 87,
     "HolderInput": 109,
     "HolderLabel": 108,
-    "Image2_2": 101,
     "Image2_3": 72,
     "Image3": 88,
+    "Label1": 113,
+    "Label2": 114,
     "Label3": 16,
     "Label4": 18,
     "Label5": 54,
@@ -104,10 +105,8 @@
     "Separator2_2": 105,
     "Separator2_3": 76,
     "Separator3": 92,
-    "Subtitle2_2": 104,
     "Subtitle2_3": 75,
     "Subtitle3": 91,
-    "Title2_2": 102,
     "Title2_3": 73,
     "Title3": 89,
     "TypeInput": 107,
@@ -115,7 +114,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/13/2022 08:51:22",
+  "HeaderLastSavedDateTimeUTC": "07/13/2022 08:52:14",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "2e362aa9-29b2-455e-89a8-b21278ed4a01": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/cc7adb93694941368afac7f090826328-911675c9c888f55d\"",
@@ -190,9 +189,10 @@
     "galleryTemplate3": 90,
     "HolderInput": 35,
     "HolderLabel": 34,
-    "Image2_2": 27,
     "Image2_3": 56,
     "Image3": 91,
+    "Label1": 0,
+    "Label2": 0,
     "Label3": 45,
     "Label4": 47,
     "Label5": 16,
@@ -253,10 +253,8 @@
     "Separator2_2": 31,
     "Separator2_3": 60,
     "Separator3": 95,
-    "Subtitle2_2": 30,
     "Subtitle2_3": 59,
     "Subtitle3": 94,
-    "Title2_2": 28,
     "Title2_3": 57,
     "Title3": 92,
     "TypeInput": 33,
@@ -281,7 +279,7 @@
       "text": 8
     },
     "DeserializationLoadTime": 1.2134645,
-    "ErrorCount": 0
+    "ErrorCount": 1
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
