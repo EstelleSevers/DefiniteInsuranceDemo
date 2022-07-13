@@ -46,7 +46,10 @@ ProductCreator As screen:
         OnSelect: |-
             =Clear(ProductCollection);
             Collect(ProductCollection, PostProduct.Run(CreateProductNameField.Text, CreateProductDepartmentField.Text);
-            Navigate(ProductSp
+            Navigate(ProductSpecification, None, { 
+                name: ProductCollection.name,
+                department: ProductCollection.department
+            });
         X: =30
         Y: =686
         ZIndex: =6
