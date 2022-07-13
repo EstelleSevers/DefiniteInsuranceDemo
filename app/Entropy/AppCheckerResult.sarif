@@ -2528,36 +2528,6 @@
           },
           "ruleId": "app-UnusedVariables",
           "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProductSpecification.uuid"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProductSpecification.uuid",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "uuid",
-                "module": "ProductSpecification",
-                "type": "ProductSpecification"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 2
         }
       ],
       "tool": {
