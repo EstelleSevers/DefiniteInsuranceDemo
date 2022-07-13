@@ -43,7 +43,17 @@ PartyCreator As screen:
 
     Icon2_1 As icon.Send:
         Icon: =Icon.Send
+        OnSelect: |-
+            =Clear(PartyCollection);
+            Collect(PartyCollection, 
         X: =30
         Y: =686
         ZIndex: =6
+
+    PartyBackArrow_4 As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =1280
+        Y: =60
+        ZIndex: =7
 

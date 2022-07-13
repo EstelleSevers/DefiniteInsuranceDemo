@@ -12,7 +12,8 @@ ProductSpecification As screen:
             =RGBA(0, 18, 107, 1)
         Height: =64
         Size: =20
-        Text: ="Information about product with id"
+        Text: |-
+            ="Created Product:"
         Width: =1230
         X: =30
         Y: =40

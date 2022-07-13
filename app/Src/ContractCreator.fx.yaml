@@ -51,3 +51,10 @@ ContractCreator As screen:
         Y: =686
         ZIndex: =6
 
+    PartyBackArrow_3 As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =1280
+        Y: =60
+        ZIndex: =7
+

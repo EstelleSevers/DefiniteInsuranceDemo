@@ -1,2 +1,9 @@
 ClaimCreator As screen:
 
+    PartyBackArrow_1 As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =1260
+        Y: =40
+        ZIndex: =1
+
