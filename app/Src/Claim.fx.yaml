@@ -88,3 +88,14 @@ Claim As screen:
             Y: =159
             ZIndex: =5
 
+    ClaimTitle_1 As label:
+        Color: =RGBA(255, 0, 0, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =95
+        Size: =20
+        Text: ="This feature is not yet supported"
+        Width: =1112
+        X: =18
+        Y: =644
+        ZIndex: =7
+

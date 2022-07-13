@@ -117,6 +117,7 @@
     "EntitySelector",
     "ClaimOpScreen",
     "ContractOpScreen",
-    "PartyOpScreen"
+    "PartyOpScreen",
+    "ProductOpScreen"
   ]
 }

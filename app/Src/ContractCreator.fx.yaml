@@ -13,42 +13,53 @@ ContractCreator As screen:
         Y: =40
         ZIndex: =1
 
-    CreatePartyNameLabel_1 As label:
+    CreateContractBeneficiaryLabel As label:
         Height: =62
         Text: |-
-            ="Number
+            ="Beneficiary
             "
         Width: =342
         X: =30
         Y: =143
         ZIndex: =2
 
-    CreatePartyIdentifierLabel_1 As label:
+    CreateContractFilenameLabel As label:
         Height: =62
-        Text: ="Identifier"
+        Text: |-
+            ="Content Filename
+            "
         Width: =342
         X: =30
         Y: =205
         ZIndex: =3
 
-    CreatePartyNameInput_1 As text:
+    CreateContractBeneficiaryField As text:
         Default: =""
-        HintText: ="Name"
+        HintText: ="Beneficiary"
+        Width: =888
         X: =372
         Y: =154
         ZIndex: =4
 
-    CreatePartyIdentifierField_1 As text:
+    CreateContractFilenameField As text:
         Default: =""
-        HintText: ="Identifier"
+        HintText: ="Content Filename"
+        Width: =888
         X: =372
         Y: =216
         ZIndex: =5
 
     Icon2_2 As icon.Send:
         Icon: =Icon.Send
-        X: =30
-        Y: =686
+        OnSelect: |-
+            =Clear(ContractCollection);
+            Collect(PartyCollection, PostParty.Run(CreatePartyIdentifierField.Text, CreatePartyNameField.Text);
+            Navigate(PartySpecification, None, { 
+                name: CreatePartyNameField.Text,
+                identifier: CreatePartyIdentifierField.Text
+            }));
+        X: =1280
+        Y: =681
         ZIndex: =6
 
     PartyBackArrow_3 As icon.BackArrow:
@@ -57,4 +68,112 @@ ContractCreator As screen:
         X: =1280
         Y: =60
         ZIndex: =7
+
+    CreateContractIDLabel As label:
+        Height: =62
+        Text: |-
+            ="Content ID
+            "
+        Width: =342
+        X: =30
+        Y: =267
+        ZIndex: =8
+
+    CreateContractLengthLabel As label:
+        Height: =62
+        Text: |-
+            ="Content Length
+            "
+        Width: =342
+        X: =30
+        Y: =329
+        ZIndex: =9
+
+    CreateContractMimetypeLabel As label:
+        Height: =62
+        Text: |-
+            ="Content Mimetype
+            "
+        Width: =342
+        X: =30
+        Y: =391
+        ZIndex: =10
+
+    CreateContractHolderLabel As label:
+        Height: =62
+        Text: |-
+            ="Holder
+            "
+        Width: =342
+        X: =30
+        Y: =453
+        ZIndex: =11
+
+    CreateContractNumberLabel As label:
+        Height: =62
+        Text: |-
+            ="Number
+            "
+        Width: =342
+        X: =30
+        Y: =515
+        ZIndex: =12
+
+    CreateContractTypeLabel As label:
+        Height: =62
+        Text: |-
+            ="Type
+            "
+        Width: =342
+        X: =30
+        Y: =577
+        ZIndex: =13
+
+    CreateContractIDField As text:
+        Default: =""
+        HintText: ="Content ID"
+        Width: =888
+        X: =372
+        Y: =278
+        ZIndex: =14
+
+    CreateContractLengthField As text:
+        Default: =""
+        HintText: ="Content Length"
+        Width: =888
+        X: =372
+        Y: =340
+        ZIndex: =15
+
+    CreateContractMimetypeField As text:
+        Default: =""
+        HintText: ="Content Mimetype"
+        Width: =888
+        X: =372
+        Y: =402
+        ZIndex: =16
+
+    CreateContractHolderField As text:
+        Default: =""
+        HintText: ="Holder"
+        Width: =888
+        X: =372
+        Y: =464
+        ZIndex: =17
+
+    CreateContractNumberField As text:
+        Default: =""
+        HintText: ="Number"
+        Width: =888
+        X: =372
+        Y: =526
+        ZIndex: =18
+
+    CreateContractTypeField As text:
+        Default: =""
+        HintText: ="Type"
+        Width: =888
+        X: =372
+        Y: =588
+        ZIndex: =19
 

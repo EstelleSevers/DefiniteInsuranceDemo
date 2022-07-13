@@ -50,8 +50,8 @@ PartyCreator As screen:
                 name: CreatePartyNameField.Text,
                 identifier: CreatePartyIdentifierField.Text
             }));
-        X: =30
-        Y: =686
+        X: =1280
+        Y: =681
         ZIndex: =6
 
     PartyBackArrow_4 As icon.BackArrow:

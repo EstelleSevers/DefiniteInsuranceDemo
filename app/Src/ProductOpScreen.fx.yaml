@@ -1,0 +1,60 @@
+ProductOpScreen As screen:
+
+    Label1_4 As label:
+        Align: =Align.Center
+        Color: =RGBA(0, 18, 107, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =58
+        Size: =25
+        Text: ="Product Entity"
+        Width: =1366
+        Y: =308
+        ZIndex: =1
+
+    Label2_4 As label:
+        Align: =Align.Center
+        Height: =28
+        Text: =" Select which operation you want to execute"
+        Width: =1366
+        Y: =366
+        ZIndex: =2
+
+    ProductSearchBtn As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: |-
+            =Clear(ProductCollection);
+            Navigate(Product)
+        Text: ="Search"
+        X: =299
+        Y: =417
+        ZIndex: =3
+
+    ProductCreateBtn As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate(ProductCreator)
+        Text: ="Create"
+        X: =502
+        Y: =417
+        ZIndex: =4
+
+    ProductUpdateBtn As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        Text: ="Update"
+        X: =705
+        Y: =417
+        ZIndex: =5
+
+    ProductDeleteBtn As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        Text: ="Delete"
+        X: =907
+        Y: =417
+        ZIndex: =6
+
+    ContractBackEntity_1 As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =1260
+        Y: =40
+        ZIndex: =7
+

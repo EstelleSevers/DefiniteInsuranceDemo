@@ -45,6 +45,7 @@ EntitySelector As screen:
 
     ProductOpButton As button:
         Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate(ProductOpScreen)
         Text: ="Product"
         X: =907
         Y: =417
