@@ -109,7 +109,6 @@
     "Claim",
     "PartySpecification",
     "ContractSpecification",
-    "ProductSpecification",
     "ClaimSpecification",
     "PartyCreator",
     "ContractCreator",

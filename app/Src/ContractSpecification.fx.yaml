@@ -18,7 +18,7 @@ ContractSpecification As screen:
         Y: =40
         ZIndex: =2
 
-    PartyNamelabel_1 As label:
+    ContractSpecNumberLabel As label:
         Color: |
             =RGBA(0, 18, 107, 1)
         Height: =59
@@ -30,7 +30,7 @@ ContractSpecification As screen:
         Y: =118
         ZIndex: =3
 
-    PartyIdentifierLabel_1 As label:
+    ContractSpecContentIDLabel As label:
         Color: |
             =RGBA(0, 18, 107, 1)
         Height: =59
@@ -42,7 +42,7 @@ ContractSpecification As screen:
         Y: =177
         ZIndex: =4
 
-    PartyIdentifierLabel_7 As label:
+    ContractSpecContentLengthLabel As label:
         Color: |
             =RGBA(0, 18, 107, 1)
         Height: =59
@@ -54,7 +54,7 @@ ContractSpecification As screen:
         Y: =233
         ZIndex: =14
 
-    PartyIdentifierLabel_8 As label:
+    ContractSpecMimetypeLabel As label:
         Color: |
             =RGBA(0, 18, 107, 1)
         Height: =59
@@ -66,7 +66,7 @@ ContractSpecification As screen:
         Y: =292
         ZIndex: =15
 
-    PartyIdentifierLabel_9 As label:
+    ContractSpecFilenameLabel As label:
         Color: |
             =RGBA(0, 18, 107, 1)
         Height: =59
@@ -78,7 +78,7 @@ ContractSpecification As screen:
         Y: =351
         ZIndex: =16
 
-    PartyNamelabel_2 As label:
+    ContractSpecBeneficiaryLabel As label:
         Color: |
             =RGBA(0, 18, 107, 1)
         Height: =59
@@ -90,7 +90,7 @@ ContractSpecification As screen:
         Y: =410
         ZIndex: =17
 
-    PartyNamelabel_3 As label:
+    ContractSpecHolderLabel As label:
         Color: |
             =RGBA(0, 18, 107, 1)
         Height: =59
@@ -102,7 +102,7 @@ ContractSpecification As screen:
         Y: =481
         ZIndex: =18
 
-    PartyNamelabel_4 As label:
+    ContractSpecTypeLabel As label:
         Color: |
             =RGBA(0, 18, 107, 1)
         Height: =59
@@ -113,21 +113,21 @@ ContractSpecification As screen:
         Y: =545
         ZIndex: =19
 
-    Icon1 As icon.ArrowRight:
+    ContractBeneficiaryArrow As icon.ArrowRight:
         Icon: =Icon.ArrowRight
         OnSelect: =Navigate(PartySpecification, None, {})
         X: =233
         Y: =417
         ZIndex: =20
 
-    Icon1_1 As icon.ArrowRight:
+    ContractHolderArrow As icon.ArrowRight:
         Icon: =Icon.ArrowRight
         OnSelect: =Navigate(PartySpecification, None, {})
         X: =233
         Y: =481
         ZIndex: =21
 
-    Icon1_2 As icon.ArrowRight:
+    ContractTypeArrow As icon.ArrowRight:
         Icon: =Icon.ArrowRight
         OnSelect: =Navigate(PartySpecification, None, {})
         X: =233
