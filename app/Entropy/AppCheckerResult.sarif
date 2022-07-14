@@ -2768,36 +2768,6 @@
           },
           "ruleId": "app-UnusedVariables",
           "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ClaimSpecification.number"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ClaimSpecification.number",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "number",
-                "module": "ClaimSpecification",
-                "type": "ClaimSpecification"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 2
         }
       ],
       "tool": {
