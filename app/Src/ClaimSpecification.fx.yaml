@@ -40,7 +40,7 @@ ClaimSpecification As screen:
         Height: =59
         Size: =20
         Text: |-
-            ="Number:" &  number
+            ="Number: " &  number
         Width: =405
         X: =75
         Y: =213
