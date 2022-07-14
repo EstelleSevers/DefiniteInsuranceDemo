@@ -32,16 +32,6 @@ ContractCreator As screen:
         Y: =143
         ZIndex: =2
 
-    CreateContractFilenameLabel As label:
-        Height: =62
-        Text: |-
-            ="Content Filename
-            "
-        Width: =342
-        X: =30
-        Y: =205
-        ZIndex: =3
-
     CreateContractBeneficiaryField As text:
         Default: =_beneficiary
         HintText: ="Beneficiary"
@@ -50,34 +40,18 @@ ContractCreator As screen:
         Y: =154
         ZIndex: =4
 
-    CreateContractFilenameField As text:
-        Default: =_filename
-        HintText: ="Content Filename"
-        Width: =888
-        X: =372
-        Y: =216
-        ZIndex: =5
-
     Icon2_2 As icon.Send:
         Height: =60
         Icon: =Icon.Send
         OnSelect: |-
             =Clear(ContractCollection);
-            Collect(ContractCollection, PostContract.Run(
+            Collect(ContractCollection, PostContractWithoutContent.Run(
                 CreateContractBeneficiaryField.Text, 
-                CreateContractFilenameField.Text, 
-                CreateContractIDField.Text, 
-                Value(CreateContractLengthField.Text), 
-                CreateContractMimetypeField.Text, 
                 CreateContractHolderField.Text, 
                 CreateContractNumberField.Text, 
                 CreateContractTypeField.Text);
             Navigate(ContractSpecification, None, { 
                 number: CreateContractNumberField.Text,
-                id: CreateContractIDField.Text,
-                length: Value(CreateContractLengthField.Text),
-                mimetype: CreateContractMimetypeField.Text,
-                filename: CreateContractFilenameField.Text,
                 beneficiary: CreateContractBeneficiaryField.Text,
                 holder: CreateContractHolderField.Text,
                 type: CreateContractTypeField.Text
@@ -100,36 +74,6 @@ ContractCreator As screen:
         Y: =60
         ZIndex: =7
 
-    CreateContractIDLabel As label:
-        Height: =62
-        Text: |-
-            ="Content ID
-            "
-        Width: =342
-        X: =30
-        Y: =267
-        ZIndex: =8
-
-    CreateContractLengthLabel As label:
-        Height: =62
-        Text: |-
-            ="Content Length
-            "
-        Width: =342
-        X: =30
-        Y: =329
-        ZIndex: =9
-
-    CreateContractMimetypeLabel As label:
-        Height: =62
-        Text: |-
-            ="Content Mimetype
-            "
-        Width: =342
-        X: =30
-        Y: =391
-        ZIndex: =10
-
     CreateContractHolderLabel As label:
         Height: =62
         Text: |-
@@ -137,7 +81,7 @@ ContractCreator As screen:
             "
         Width: =342
         X: =30
-        Y: =453
+        Y: =205
         ZIndex: =11
 
     CreateContractNumberLabel As label:
@@ -147,7 +91,7 @@ ContractCreator As screen:
             "
         Width: =342
         X: =30
-        Y: =515
+        Y: =267
         ZIndex: =12
 
     CreateContractTypeLabel As label:
@@ -157,39 +101,15 @@ ContractCreator As screen:
             "
         Width: =342
         X: =30
-        Y: =577
+        Y: =329
         ZIndex: =13
-
-    CreateContractIDField As text:
-        Default: =_id
-        HintText: ="Content ID"
-        Width: =888
-        X: =372
-        Y: =278
-        ZIndex: =14
-
-    CreateContractLengthField As text:
-        Default: =_number
-        HintText: ="Content Length"
-        Width: =888
-        X: =372
-        Y: =340
-        ZIndex: =15
-
-    CreateContractMimetypeField As text:
-        Default: =_mime
-        HintText: ="Content Mimetype"
-        Width: =888
-        X: =372
-        Y: =402
-        ZIndex: =16
 
     CreateContractHolderField As text:
         Default: =_holder
         HintText: ="Holder"
         Width: =888
         X: =372
-        Y: =464
+        Y: =216
         ZIndex: =17
 
     CreateContractNumberField As text:
@@ -197,7 +117,7 @@ ContractCreator As screen:
         HintText: ="Number"
         Width: =888
         X: =372
-        Y: =526
+        Y: =278
         ZIndex: =18
 
     CreateContractTypeField As text:
@@ -205,6 +125,6 @@ ContractCreator As screen:
         HintText: ="Type"
         Width: =888
         X: =372
-        Y: =588
+        Y: =340
         ZIndex: =19
 
