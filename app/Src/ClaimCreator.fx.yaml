@@ -7,7 +7,49 @@ ClaimCreator As screen:
         PaddingBottom: =10
         PaddingTop: =10
         Width: =60
-        X: =1260
-        Y: =40
+        X: =1280
+        Y: =60
         ZIndex: =1
+
+    ContractInfoLabel_5 As label:
+        Color: |
+            =RGBA(0, 18, 107, 1)
+        Height: =64
+        Size: =20
+        Text: ="Create a claim"
+        Width: =1230
+        X: =30
+        Y: =40
+        ZIndex: =2
+
+    CreateClaimNumberLabel As label:
+        Height: =62
+        Text: ="Number"
+        Width: =342
+        X: =30
+        Y: =143
+        ZIndex: =3
+
+    CreateClaimNumberField As text:
+        Default: =_partyname
+        HintText: ="Number"
+        X: =372
+        Y: =154
+        ZIndex: =5
+
+    Icon2_3 As icon.Send:
+        Height: =60
+        Icon: =Icon.Send
+        OnSelect: |-
+            =Clear(PartyCollection);
+            Collect(ClaimCollection, PostClaim.Run(CreateClaimNumberField.Text);
+            Navigate(ClaimSpecification, None, { 
+                number: CreateClaimNumberField.Text    
+            }));
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =60
+        X: =1280
+        Y: =680
+        ZIndex: =7
 

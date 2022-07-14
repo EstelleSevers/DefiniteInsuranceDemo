@@ -58,7 +58,7 @@ PartyCreator As screen:
         PaddingTop: =10
         Width: =60
         X: =1280
-        Y: =681
+        Y: =680
         ZIndex: =6
 
     PartyBackArrow_4 As icon.BackArrow:
