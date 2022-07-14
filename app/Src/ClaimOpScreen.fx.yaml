@@ -31,6 +31,7 @@ ClaimOpScreen As screen:
 
     ClaimCreateBtn As button:
         Fill: =RGBA(0, 18, 107, 1)
+        OnSelect: =Navigate(ClaimCreator,None)
         Text: ="Create"
         X: =502
         Y: =417
